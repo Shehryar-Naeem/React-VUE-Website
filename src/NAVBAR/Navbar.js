@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import logo from "../Images/logo.png";
+import { Link } from "react-router-dom";
+import logo from "../Images/VUELOGO.jpeg";
 
 const month = [
   "January",
@@ -38,13 +39,13 @@ const NavBar = () => {
         <div className="sub_nav">
         <div className="toggle">
           <span onClick={()=>setToggle(!toggle)}>
-            <i class="fa fa-bars" aria-hidden="true"></i>
+            <i className="fa fa-bars" aria-hidden="true"></i>
           </span>
         </div>
           <span className="timer">
             {getMonth} {getDate},{getYear} {ctime}
           </span>
-          <ul className={toggle?"menu_items":"menu_items hidden"}>
+          <ul className={toggle?"menu_items":"menu_items hidden"  }>
             <li>Our Aim</li>
             <li>Privacy Policy</li>
             <li>DMCA</li>
@@ -56,38 +57,40 @@ const NavBar = () => {
         <div className="icons">
           <ul>
             <li className="twitter">
-              <i class="fa fa-twitter" aria-hidden="true"></i>
+              <i className="fa fa-twitter" aria-hidden="true"></i>
             </li>
             <li className="facebook">
-              <i class="fa fa-facebook" aria-hidden="true"></i>
+              <i className="fa fa-facebook" aria-hidden="true"></i>
             </li>
             <li className="youtube">
-              <i class="fa fa-youtube" aria-hidden="true"></i>
+              <i className="fa fa-youtube" aria-hidden="true"></i>
             </li>
           </ul>
         </div>
       </nav>
 
       <div className="logoContainer">
-        <img src={logo} alt="logo" />
+        <Link to="/"><img src={logo} alt="logo" /></Link>
       </div>
 
       <section className="nav_menu">
         <div className="toggle">
           <span onClick={()=>setToggle2(!toggle2)}>
-            <i class="fa fa-bars" aria-hidden="true"></i>
+            <i className="fa fa-bars" aria-hidden="true"></i>
           </span>
         </div>
         <div className="left_side">
           <span className={toggle2?"home_btn":"home_btn hidden"}>
-            <i class="fa fa-home" aria-hidden="true"></i>
+            <i className="fa fa-home" aria-hidden="true"></i>
           </span>
           <ul className={toggle2?"nav_item":"nav_item hidden"}>
             <li>
-              Assignments
+              <Link to="/">
+                Assignments
               <span>
-                <i class="fa fa-caret-down" aria-hidden="true"></i>
+                <i className="fa fa-caret-down" aria-hidden="true"></i>
               </span>
+              </Link>
               <ul>
                 <li>Assignment N0 1</li>
                 <li>Assignment N0 2</li>
@@ -97,7 +100,7 @@ const NavBar = () => {
             <li>
               past paper
               <span>
-                <i class="fa fa-caret-down" aria-hidden="true"></i>
+                <i className="fa fa-caret-down" aria-hidden="true"></i>
               </span>
               <ul>
                 <li>Current final Term papers fall 2019</li>
@@ -112,7 +115,7 @@ const NavBar = () => {
             <li>
               how to
               <span>
-                <i class="fa fa-caret-down" aria-hidden="true"></i>
+                <i className="fa fa-caret-down" aria-hidden="true"></i>
               </span>
               <ul>
                 <li>Mid Term Paper Solving Technique</li>
@@ -135,7 +138,7 @@ const NavBar = () => {
             <li>
               software
               <span>
-                <i class="fa fa-caret-down" aria-hidden="true"></i>
+                <i className="fa fa-caret-down" aria-hidden="true"></i>
               </span>
               <ul>
                 <li>DEV C++</li>
@@ -149,7 +152,7 @@ const NavBar = () => {
             <li>
               others
               <span>
-                <i class="fa fa-caret-down" aria-hidden="true"></i>
+                <i className="fa fa-caret-down" aria-hidden="true"></i>
               </span>
               <ul>
                 <li>Fashion and life Style</li>
@@ -166,7 +169,7 @@ const NavBar = () => {
         <div className="right_side">
           <input type="text" placeholder="Type Here to search..." />
           <span>
-            <i class="fa fa-search" aria-hidden="true"></i>
+            <i className="fa fa-search" aria-hidden="true"></i>
           </span>
         </div>
       </section>

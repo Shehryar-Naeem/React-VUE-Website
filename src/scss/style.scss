@@ -1,6 +1,12 @@
  @use  "./NavBar/NavBar";
+ @use "./Home/Home";
  *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+ }
+ body{
+  list-style: none;
+   overflow-x: hidden;
+   text-decoration: none;
  }
