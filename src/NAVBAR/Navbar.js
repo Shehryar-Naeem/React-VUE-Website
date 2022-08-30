@@ -48,8 +48,6 @@ const NavBar = () => {
           <ul className={toggle?"menu_items":"menu_items hidden"  }>
             <li>Our Aim</li>
             <li>Privacy Policy</li>
-            <li>DMCA</li>
-            <li>Sitemap</li>
             <li>About Us</li>
             <li>Contact Us</li>
           </ul>
@@ -95,6 +93,16 @@ const NavBar = () => {
                 <li>Assignment N0 1</li>
                 <li>Assignment N0 2</li>
                 <li>Assignment N0 3</li>
+              </ul>
+            </li>
+            <li>
+              GDB
+              <span>
+                <i className="fa fa-caret-down" aria-hidden="true"></i>
+              </span>
+              <ul>
+                <li>GDB1</li>
+                <li>GDB2</li>
               </ul>
             </li>
             <li>

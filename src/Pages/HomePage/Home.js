@@ -15,7 +15,6 @@ const PrevBtn=(prop)=>{
     )
   }
   const NextBtn=(prop)=>{
-    console.log(prop);
     const {className,onClick}=prop;
     return (
       <>
@@ -42,7 +41,7 @@ const Home=()=>{
                 HomeData.map((data)=>{
                     return(
                         <div className="slider_container" key={data.id}>
-                            <img src={data.image} className="size"/>
+                            <img src={data.image} className="size" alt="vue images"/>
                         </div>
                     )
                 })

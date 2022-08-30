@@ -313,6 +313,234 @@
     height: 15rem;
   }
 }
+.footer_container {
+  width: 100%;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  grid-gap: 0.5rem;
+  padding: 1rem calc((100vw - 1200px) / 2);
+  background: linear-gradient(#000, #E20404);
+  color: #fff;
+}
+
+.footer_container::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: -5px;
+  border-bottom: 0.5rem solid #ff0000;
+}
+
+.about_sec {
+  margin: 0 0.5rem;
+}
+.about_sec .about_top {
+  font-size: 1rem;
+  color: #FFFB02;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.about_sec .about_top .first_span {
+  display: block;
+}
+.about_sec .about_top .second_span {
+  flex: 2;
+  width: 100%;
+  height: 0.5rem;
+  background-color: #fff;
+  opacity: 0.3;
+}
+.about_sec .list_sec {
+  padding-top: 1rem;
+  padding: 1rem 0 0 1rem;
+}
+.about_sec .list_sec ul {
+  display: flex;
+  flex-direction: column;
+}
+.about_sec .list_sec ul li {
+  display: flex;
+  align-items: center;
+  margin: 0.2rem 0;
+  font-size: 0.9rem;
+}
+.about_sec .list_sec ul li i {
+  padding: 0.2rem;
+  margin-right: 0.2rem;
+  border-radius: 0.2rem;
+  font-size: 0.7rem;
+  background: #FE6602;
+}
+.about_sec .list_sec ul li span {
+  display: flex;
+  align-items: flex-end;
+}
+.about_sec .list_sec ul li span:hover {
+  color: #fff;
+  border-bottom: 0.1rem solid #fff;
+}
+.about_sec .list_sec p {
+  padding-top: 1rem;
+  text-align: center;
+}
+.about_sec .list_sec p span {
+  color: #ff0000;
+}
+
+.followers_sec {
+  margin: 0 0.5rem;
+}
+.followers_sec .followers_top {
+  font-size: 1rem;
+  color: #FFFB02;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.followers_sec .followers_top .first_span {
+  display: block;
+}
+.followers_sec .followers_top .second_span {
+  flex: 2;
+  width: 100%;
+  height: 0.5rem;
+  background-color: #fff;
+  opacity: 0.3;
+}
+.followers_sec .followers_id_sec {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(3rem, 1fr));
+  grid-gap: 1rem;
+  padding-top: 1rem;
+}
+.followers_sec .followers_id_sec span i {
+  cursor: pointer;
+  display: block;
+  padding: 1rem;
+  width: 100%;
+  background: #4B8DF8;
+  font-size: 1.5rem;
+  color: #fff;
+  text-align: center;
+}
+.followers_sec button {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  outline: none;
+  border: none;
+  font-size: 1.2;
+  background-color: #4B8DF8;
+  color: #fff;
+  cursor: pointer;
+}
+
+.categories_sec {
+  margin: 0 0.5rem;
+}
+.categories_sec .categories_top {
+  font-size: 1rem;
+  color: #FFFB02;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.categories_sec .categories_top .first_span {
+  display: block;
+}
+.categories_sec .categories_top .second_span {
+  flex: 2;
+  width: 100%;
+  height: 0.5rem;
+  background-color: #fff;
+  opacity: 0.3;
+}
+.categories_sec .list_item {
+  padding-top: 1rem;
+}
+.categories_sec .list_item ul {
+  display: flex;
+  flex-direction: column;
+}
+.categories_sec .list_item ul li {
+  padding: 1rem 0.5rem;
+  color: #ff0000;
+  list-style: none;
+  z-index: 1;
+}
+.categories_sec .list_item ul li:hover {
+  background: rgba(255, 255, 255, 0.5);
+  border-left: 0.3rem solid #ff0000;
+  color: #fff;
+}
+
+.contact_sec {
+  margin: 0 0.5rem;
+}
+.contact_sec .contact_top {
+  font-size: 1rem;
+  color: #FFFB02;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact_sec .contact_top .first_span {
+  display: block;
+}
+.contact_sec .contact_top .second_span {
+  flex: 2;
+  width: 100%;
+  height: 0.5rem;
+  background-color: #fff;
+  opacity: 0.3;
+}
+.contact_sec form div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5rem;
+}
+.contact_sec form div input {
+  margin-top: 0.5rem;
+  outline: none;
+  border: none;
+  height: 1.3rem;
+}
+.contact_sec form div textarea {
+  height: 5rem;
+  outline: none;
+  border: none;
+}
+.contact_sec form button {
+  margin-top: 0.5rem;
+  padding: 0.3rem 0.5rem;
+  outline: none;
+  border: none;
+  background-color: #4B8DF8;
+  color: #fff;
+}
+
+hr {
+  background: #000;
+  height: 0.2rem;
+}
+
+footer {
+  padding: 0 calc((100vw - 1200px) / 2);
+  background: #ff0000;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+}
+
 * {
   padding: 0;
   margin: 0;
