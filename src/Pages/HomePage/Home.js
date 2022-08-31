@@ -36,6 +36,8 @@ const Home=()=>{
   }
     return (
         <>
+          <div className="home_container">
+
             <Slider {...setting}>
             {
                 HomeData.map((data)=>{
@@ -47,6 +49,7 @@ const Home=()=>{
                 })
             }
             </Slider>
+          </div>
         </>
     )
 }

@@ -90,7 +90,7 @@ const NavBar = () => {
               </span>
               </Link>
               <ul>
-                <li>Assignment N0 1</li>
+                <li><Link to="/assignment/assignment1">Assignment N0 1</Link></li>
                 <li>Assignment N0 2</li>
                 <li>Assignment N0 3</li>
               </ul>

@@ -1,6 +1,5 @@
 .footer_container {
   width: 100%;
-  position: relative;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   grid-gap: 0.5rem;
@@ -116,7 +115,6 @@
 .followers_sec button {
   margin-top: 0.5rem;
   padding: 0.5rem 1rem;
-  outline: none;
   border: none;
   font-size: 1.2;
   background-color: #4B8DF8;
