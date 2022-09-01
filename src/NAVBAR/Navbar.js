@@ -47,8 +47,8 @@ const NavBar = () => {
           </span>
           <ul className={toggle?"menu_items":"menu_items hidden"  }>
             <li>Our Aim</li>
-            <li>Privacy Policy</li>
-            <li>About Us</li>
+            <li><Link to="/adminpage">Privacy Policy</Link></li>
+            <li><Link to="/inputpage">About Us</Link></li>
             <li>Contact Us</li>
           </ul>
         </div>
