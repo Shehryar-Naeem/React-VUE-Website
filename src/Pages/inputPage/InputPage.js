@@ -3,7 +3,6 @@ import image from "../../Images/upload.jpeg";
 const Inputpage = () => {
   const [discription, setDiscription] = useState("");
   const [pic, setPic] = useState(image);
-  const [showpic, setShowPic] = useState(pic);
   const uploadImage = (e) => {
     if (e.target.files.length !== 0) {
       setPic(URL.createObjectURL(e.target.files[0]));
@@ -12,7 +11,8 @@ const Inputpage = () => {
 
   const submitHandler = (e) => {
     e.preventDefault();
-    setShowPic(pic);
+    setDiscription("")
+    setPic(image)
   };
   return (
     <>
@@ -23,13 +23,11 @@ const Inputpage = () => {
             <div className="input_container">
               <label>Discription</label>
               <div className="input_portion">
-                <input
-                  type="text"
+                <textarea
                   value={discription}
                   onChange={(e) => setDiscription(e.target.value)}
                   className="input_tag"
-                />
-                <span className="input_placeholder">Discription</span>
+                ></textarea>
               </div>
             </div>
             <div className="input_container">
@@ -44,7 +42,7 @@ const Inputpage = () => {
         <div className="img_sec">
           <p>{discription}</p>
           <div className="img_section">
-            <img src={showpic} alt="assignmentpic" />
+            <img src={pic} alt="assignmentpic" />
           </div>
         </div>
       </section>

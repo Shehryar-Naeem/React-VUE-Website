@@ -1,9 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
 import assignmentPic from "../../Images/assignment.jpeg"
-
+import Card from "./Card";
+import { useDispatch, useSelector } from "react-redux";
+import { showCardAction } from "../../Action/Action";
 const getYear = new Date().getFullYear();
-const Assignmentone= "Assignment 1"
 const AssignmentOne = () => {
+  const dispatch = useDispatch();
+  const showCard= useSelector(state=>state.showCard.cards)
+  const {loading,card,error}=showCard
+  useEffect(()=>{
+    dispatch(showCardAction())
+  },[dispatch])
+
+  // const loadCard= async()=>{
+  //   const card = await axios.get("http://localhost:3003/cards");
+  //   setCards(card.data)
+  // }
+
   return (
     <>
       <section className="assignment_one_container">
@@ -27,8 +40,19 @@ const AssignmentOne = () => {
               </div>
             </div>
           </div>
+          {loading&& <h1>loading</h1>}
+            {error && <h1>Error</h1>}
           <div className="grid_container">
-            <div className="grid_card">
+            {
+              card?.map((curr,index)=>{
+                return (
+                  <div key={index}>
+                  <Card image={curr.img} text={curr.discription}/>
+                  </div>
+                )
+              })
+            }
+            {/* <div className="grid_card">
               <img src={assignmentPic} alt="assignment pic"/>
               <p>CS501 {Assignmentone} Solution spirng {getYear}</p>
             </div>
@@ -47,11 +71,7 @@ const AssignmentOne = () => {
             <div className="grid_card">
               <img src={assignmentPic} alt="assignment pic"/>
               <p>CS501 {Assignmentone} Solution spirng {getYear}</p>
-            </div>
-            <div className="grid_card">
-              <img src={assignmentPic} alt="assignment pic"/>
-              <p>CS501 {Assignmentone} Solution spirng {getYear}</p>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="right_side">

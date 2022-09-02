@@ -760,8 +760,8 @@ footer {
 }
 .input_page_container .form_container .input_container .input_portion {
   margin-top: 1rem;
-  width: 100%;
-  height: 3rem;
+  width: 25rem;
+  height: 5rem;
   position: relative;
 }
 .input_page_container .form_container .input_container .input_portion .input_tag {
@@ -813,20 +813,21 @@ footer {
 .input_page_container .img_sec {
   margin: 1rem;
   padding: 1rem;
-  width: 30rem;
+  width: 25rem;
   border: 1px solid black;
   object-fit: contain;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
+  word-wrap: break-word;
   gap: 1rem;
 }
 .input_page_container .img_sec p {
   width: 100%;
-  height: 100%;
+  height: 10rem;
+  overflow: scroll;
   border: 1px solid black;
-  display: inline-flex;
 }
 .input_page_container .img_sec .img_section {
   width: 10rem;
