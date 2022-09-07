@@ -49,6 +49,7 @@ const Home=()=>{
                 })
             }
             </Slider>
+            
           </div>
         </>
     )

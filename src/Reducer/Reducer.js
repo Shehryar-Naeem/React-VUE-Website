@@ -2,9 +2,6 @@
 import { FETCH_FAIL_CARD_DATA, FETCH_REQUEST_CARD_DATA, FETCH_SUCCESS_CARD_DATA } from "../Constant/Constant"
 
 
-// const cardData=async()=>{
-//     await axios.get()
-// }
 const initialState={
     loading:false,
     cards:[],
@@ -12,13 +9,16 @@ const initialState={
 }
 
 export const showCardDataReducer=(state=initialState,action)=>{
+
     switch(action){
         case FETCH_REQUEST_CARD_DATA:
+            console.log("hello");
             return {...state,
                 loading:true
             }
     
         case FETCH_SUCCESS_CARD_DATA:
+            console.log("text");
             return {
                 ...state,
                 loading:false,
@@ -26,6 +26,7 @@ export const showCardDataReducer=(state=initialState,action)=>{
                 error:""
             }
         case FETCH_FAIL_CARD_DATA:
+            console.log("hello");
             return {
                 ...state,
                 loading:false,

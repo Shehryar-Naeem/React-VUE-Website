@@ -58,9 +58,10 @@
                 span{
                     display: flex;
                     align-items: flex-end;
+                    cursor:pointer;
                     &:hover{
                         color: #fff;
-                        border-bottom: 0.1rem solid #fff;
+                        text-decoration: underline;
                     }
                 }
             }
