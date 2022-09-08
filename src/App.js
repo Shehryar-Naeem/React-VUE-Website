@@ -11,6 +11,8 @@ import Archive from "./Pages/Assignments/AssignmentCompont/Archive";
 import Comment from "./Pages/Assignments/AssignmentCompont/Comment";
 import Assignment2 from "./Pages/Assignments/Assignment2/Assignment2";
 import AssignmentThree from "./Pages/Assignments/Assignment3/Assignment3";
+import CurrentFinalTermPage from "./Pages/PaperPages/CurrentFinalTermPage";
+import MidTermPaper from "./Pages/PaperPages/MidTermpaper";
 const getYear = new Date().getFullYear();
 
 const App = () => {
@@ -25,13 +27,37 @@ const App = () => {
         <Route path="/sitemap" />
         <Route path="/aboutus" />
         <Route path="contactus" />
+
+        {/* *********** Route for Assignment Pages start *********  */}
         <Route path="/assignment/assignment1" element={<AssignmentOne />}>
           <Route path="" element={<TrendingSection getYear={getYear} />} />
           <Route path="comments" element={<Comment />} />
           <Route path="archive" element={<Archive />} />
         </Route>
-        <Route path="/assignment/assignment2" element={<Assignment2/>}/>
-        <Route path="/assignment/assignment3" element={<AssignmentThree/>}/>
+        <Route path="/assignment/assignment2" element={<Assignment2 />}>
+          <Route path="" element={<TrendingSection getYear={getYear} />} />
+          <Route path="comments" element={<Comment />} />
+          <Route path="archive" element={<Archive />} />
+        </Route>
+        <Route path="/assignment/assignment3" element={<AssignmentThree />}>
+          <Route path="" element={<TrendingSection getYear={getYear} />} />
+          <Route path="comments" element={<Comment />} />
+          <Route path="archive" element={<Archive />} />
+        </Route>
+        {/* *********** Route for Assignment Pages end *********  */}
+
+        <Route path="/currentfinaltermpaper" element={<CurrentFinalTermPage />}>
+          <Route path="" element={<TrendingSection getYear={getYear} />} />
+          <Route path="comments" element={<Comment />} />
+          <Route path="archive" element={<Archive />} />
+        </Route>
+
+        <Route path="/midtermsolvedpaper" element={<MidTermPaper />}>
+          <Route path="" element={<TrendingSection getYear={getYear} />} />
+          <Route path="comments" element={<Comment />} />
+          <Route path="archive" element={<Archive />} />
+        </Route>
+
         <Route path="/adminpage" element={<AdminPage />}>
           <Route path="inputpage" element={<Inputpage />} />
         </Route>

@@ -47,8 +47,8 @@ const NavMenuComponent = () => {
                 <i className="fa fa-caret-down" aria-hidden="true"></i>
               </span>
               <ul>
-                <li>Current final Term papers fall 2019</li>
-                <li>Mid term papers solved by moaaz</li>
+                <li><Link to="/currentfinaltermpaper">Current final Term papers fall 2019</Link></li>
+                <li><Link to="/midtermsolvedpaper">Mid term papers solved by moaaz</Link></li>
                 <li>Final term papers solved by moaaz</li>
                 <li>Final term papers by Waqar Siddhu</li>
                 <li>Mid Term Papers Collection</li>

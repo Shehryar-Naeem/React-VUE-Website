@@ -3,20 +3,21 @@ import React, { useEffect, useState } from "react";
 import Card from "./Card";
 // import { useDispatch, useSelector } from "react-redux";
 // import { showCardAction } from "../../../Action/Action";   
-import RightsideCard from "./RightSIdeCards";
-import TitlePost from "./TitlePost";
-import LatestPostLinks from "./LatestPostLink";
-import TrendingSection from "./TrendingSection";
-import { Link, Route, Routes } from "react-router-dom";
-import Archive from "./Archive";
-import Comment from "./Comment";
+// import RightsideCard from "./RightSIdeCards";
+// import TitlePost from "./TitlePost";
+// import LatestPostLinks from "./LatestPostLink";
+// import TrendingSection from "./TrendingSection";
+// import { Link, Route, Routes } from "react-router-dom";
+// import Archive from "./Archive";
+// import Comment from "./Comment";
 import axios from "axios";
 import Pagination from "./PaginationNumbers";
+import RightSide from "./RightSide";
 const getYear = new Date().getFullYear();
 const AssignmentComponent = ({picture}) => {
   const [cards,setCards]=useState([])
   const [currPage,setCurrentPage]=useState(1)
-  const [postsPerPage,setPostsPerPage]=useState(6)
+  const [postsPerPage]=useState(6)
 
   const indexOfLastPost= currPage*postsPerPage;
   const indexOfFirstPost= indexOfLastPost-postsPerPage;
@@ -73,7 +74,8 @@ const AssignmentComponent = ({picture}) => {
           </div>
           <Pagination postsPerPage={postsPerPage} totalPost={cards.length} paginate={paginate}/>
         </div>
-        <div className="right_side">
+        <RightSide getYear={getYear} picture={picture}/>
+        {/* <div className="right_side">
           <RightsideCard
             topic={`spirng ${getYear} Assignment`}
             image={picture}
@@ -155,7 +157,7 @@ const AssignmentComponent = ({picture}) => {
             
              
           </div>
-        </div>
+        </div> */}
       </section>
     </>
   );
