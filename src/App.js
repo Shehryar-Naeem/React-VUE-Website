@@ -13,6 +13,7 @@ import Assignment2 from "./Pages/Assignments/Assignment2/Assignment2";
 import AssignmentThree from "./Pages/Assignments/Assignment3/Assignment3";
 import CurrentFinalTermPage from "./Pages/PaperPages/CurrentFinalTermPage";
 import MidTermPaper from "./Pages/PaperPages/MidTermpaper";
+import FinalTerm from "./Pages/PaperPages/FinaTerm";
 const getYear = new Date().getFullYear();
 
 const App = () => {
@@ -56,6 +57,10 @@ const App = () => {
           <Route path="" element={<TrendingSection getYear={getYear} />} />
           <Route path="comments" element={<Comment />} />
           <Route path="archive" element={<Archive />} />
+        </Route>
+
+        <Route path="/finaltermsolvedpaper" element={<FinalTerm/>}>
+
         </Route>
 
         <Route path="/adminpage" element={<AdminPage />}>

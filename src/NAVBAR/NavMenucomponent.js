@@ -49,7 +49,7 @@ const NavMenuComponent = () => {
               <ul>
                 <li><Link to="/currentfinaltermpaper">Current final Term papers fall 2019</Link></li>
                 <li><Link to="/midtermsolvedpaper">Mid term papers solved by moaaz</Link></li>
-                <li>Final term papers solved by moaaz</li>
+                <li><Link to="finaltermsolvedpaper">Final term papers solved by moaaz</Link></li>
                 <li>Final term papers by Waqar Siddhu</li>
                 <li>Mid Term Papers Collection</li>
                 <li>Final Term Papers Collection</li>
