@@ -49,20 +49,20 @@ const NavMenuComponent = () => {
               <ul>
                 <li><Link to="/currentfinaltermpaper">Current final Term papers fall 2019</Link></li>
                 <li><Link to="/midtermsolvedpaper">Mid term papers solved by moaaz</Link></li>
-                <li><Link to="finaltermsolvedpaper">Final term papers solved by moaaz</Link></li>
-                <li>Final term papers by Waqar Siddhu</li>
-                <li>Mid Term Papers Collection</li>
-                <li>Final Term Papers Collection</li>
+                <li><Link to="/finaltermsolvedpaper">Final term papers solved by moaaz</Link></li>
+                <li><Link to="/finaltermsolvedpaperwithpdf">Final term papers by Waqar Siddhu</Link></li>
+                <li><Link to="/midtermpapercollection">Mid Term Papers Collection</Link></li>
+                <li><Link to="/finaltermpapercollection">Final Term Papers Collection</Link></li>
               </ul>
             </li>
-            <li>short notes </li>
+            <li><Link to="/shortnote">short notes </Link></li>
             <li>
               how to
               <span>
                 <i className="fa fa-caret-down" aria-hidden="true"></i>
               </span>
               <ul>
-                <li>Mid Term Paper Solving Technique</li>
+                <li><Link to="/midtermpapersolvingtechnique">Mid Term Paper Solving Technique</Link></li>
                 <li>Difference b/w CGPA and Effective CGPA</li>
                 <li>How to upload Assignment</li>
                 <li>How to solve MCQS fast</li>

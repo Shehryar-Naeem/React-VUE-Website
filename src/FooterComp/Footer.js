@@ -78,7 +78,7 @@ const Footer = () => {
           <form>
             <div>
               <label>Name</label>
-              <input type="text" />
+              <input type="text" defaultValue="value"/>
             </div>
             <div>
               <label>Email*</label>
