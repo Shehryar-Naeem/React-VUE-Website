@@ -19,6 +19,15 @@ import MidtermPaperCollection from "./Pages/PaperPages/MidtermPaperCollection";
 import FinalTermPaperCollection from "./Pages/PaperPages/FinalTermPaperCollection";
 import ShortNotes from "./Pages/ShortNotePage/ShortNote";
 import MidtermSolvedPaperTechnique from "./Pages/HOwToPage/MidTermSolvedTechnique";
+import CGPA from "./Pages/HOwToPage/CGPA";
+import UploadAssignment from "./Pages/HOwToPage/UploadAssignment";
+import HowtoSolvedMCQs from "./Pages/HOwToPage/HowToSolveMCQs";
+import HowToUseExamSoftware from "./Pages/HOwToPage/HowtoUseExamSoftwre";
+import AvoidZeroMarks from "./Pages/HOwToPage/AvoidZeroMarks";
+import HowtoSaveAndCopyQuiz from "./Pages/HOwToPage/HowtoCopyandSaveQuiz";
+import HowtoCalculateCGPA from "./Pages/HOwToPage/HowtoCalculateCGPA";
+import HowtoImprovegrade from "./Pages/HOwToPage/HowtoImprovegrade";
+import HowtoinstallDEV from "./Pages/SoftwarePages/DevC++page";
 const getYear = new Date().getFullYear();
 
 const App = () => {
@@ -96,18 +105,77 @@ const App = () => {
           <Route path="archive" element={<Archive />} />
         </Route>
 
-        <Route path="/shortnote" element={<ShortNotes/>}>
+        <Route path="/shortnote" element={<ShortNotes />}>
+          <Route path="" element={<TrendingSection getYear={getYear} />} />
+          <Route path="comments" element={<Comment />} />
+          <Route path="archive" element={<Archive />} />
+        </Route>
+
+        <Route
+          path="/midtermpapersolvingtechnique"
+          element={<MidtermSolvedPaperTechnique />}
+        >
+          <Route path="" element={<TrendingSection getYear={getYear} />} />
+          <Route path="comments" element={<Comment />} />
+          <Route path="archive" element={<Archive />} />
+        </Route>
+
+        <Route path="/cgpa" element={<CGPA />}>
+          <Route path="" element={<TrendingSection getYear={getYear} />} />
+          <Route path="comments" element={<Comment />} />
+          <Route path="archive" element={<Archive />} />
+        </Route>
+
+        <Route path="/uploadassignment" element={<UploadAssignment />}>
+          <Route path="" element={<TrendingSection getYear={getYear} />} />
+          <Route path="comments" element={<Comment />} />
+          <Route path="archive" element={<Archive />} />
+        </Route>
+
+        <Route path="/howtosolvemcqs" element={<HowtoSolvedMCQs />}>
+          <Route path="" element={<TrendingSection getYear={getYear} />} />
+          <Route path="comments" element={<Comment />} />
+          <Route path="archive" element={<Archive />} />
+        </Route>
+
+        <Route path="/howtouseexamsoftware" element={<HowToUseExamSoftware />}>
+          <Route path="" element={<TrendingSection getYear={getYear} />} />
+          <Route path="comments" element={<Comment />} />
+          <Route path="archive" element={<Archive />} />
+        </Route>
+
+        <Route
+          path="/howtoavoidzeromarksorplagiarism"
+          element={<AvoidZeroMarks />}
+        >
+          <Route path="" element={<TrendingSection getYear={getYear} />} />
+          <Route path="comments" element={<Comment />} />
+          <Route path="archive" element={<Archive />} />
+        </Route>
+
+        <Route path="/howtosaveandcopyquiz" element={<HowtoSaveAndCopyQuiz/>}>
+        <Route path="" element={<TrendingSection getYear={getYear} />} />
+          <Route path="comments" element={<Comment />} />
+          <Route path="archive" element={<Archive />} />
+        </Route>
+
+        <Route path="/howtocalculatecpga" element={<HowtoCalculateCGPA/>}>
+        <Route path="" element={<TrendingSection getYear={getYear} />} />
+          <Route path="comments" element={<Comment />} />
+          <Route path="archive" element={<Archive />} />
+        </Route>
+
+        <Route path="/howtoimprovegrade" element={<HowtoImprovegrade/>}>
         <Route path="" element={<TrendingSection getYear={getYear} />} />
           <Route path="comments" element={<Comment />} />
           <Route path="archive" element={<Archive />} />
         </Route>
 
 
-
-
-
-        <Route path="/midtermpapersolvingtechnique" element={<MidtermSolvedPaperTechnique/>}>
-
+        <Route path="/howtoinstalldevc++" element={<HowtoinstallDEV/>}>
+        <Route path="" element={<TrendingSection getYear={getYear} />} />
+          <Route path="comments" element={<Comment />} />
+          <Route path="archive" element={<Archive />} />
         </Route>
         <Route path="/adminpage" element={<AdminPage />}>
           <Route path="inputpage" element={<Inputpage />} />

@@ -1,6 +1,10 @@
 import React from "react";
+import SliderComp from "./ReactSlider";
+// import Slider from "react-slick";
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
+// import pic from "../../../Images/assignment.jpeg";
 // import picture from "../../../Images/assignment.jpeg";
-import LoomVideo from "../../../Images/loom.mp4";
 // import Card from "./Card";
 // import { useDispatch, useSelector } from "react-redux";
 // import { showCardAction } from "../../../Action/Action";
@@ -14,6 +18,7 @@ import LoomVideo from "../../../Images/loom.mp4";
 // import axios from "axios";
 import RightSide from "./RightSide";
 import SubjectLine from "./SubjectLine";
+// import { AssignmentData } from "./AssignmentData";
 const getYear = new Date().getFullYear();
 const AssignmentComponent = ({ picture }) => {
   return (
@@ -24,9 +29,9 @@ const AssignmentComponent = ({ picture }) => {
             <div className="left_side_header">
               <div className="text_container">
                 <span className="date_shower">21 july 2016</span>
-              <span className="text">
-                All subject mid term past papers collection
-              </span>
+                <span className="text">
+                  All subject mid term past papers collection
+                </span>
               </div>
               <div className="search_btn">
                 <span>A+</span>
@@ -41,12 +46,11 @@ const AssignmentComponent = ({ picture }) => {
               </div>
             </div>
             <div className="left_side_all_subject_section">
-           
               <SubjectLine
                 title={`all subject mid term past paper collection`}
                 className={`black_subject_line_text`}
               />
-                 <p>
+              <p className="download_instruction">
                 You can read or download below, all subjects solved VU mid term
                 paper collection. for virtual university students of pakistan.{" "}
                 <span>vue all subject mid term past paper</span> collection for
@@ -59,169 +63,55 @@ const AssignmentComponent = ({ picture }) => {
             </div>
             <div className="left_side_video_download_section">
               <SubjectLine
-                title={`watch the video `}
+                title={`instruction for mid term paper`}
                 className={`green_subject_line_text`}
               />
-
-              <span>
+              <span className="text">
                 All subject mid term papers collection by virtual solution
                 excellence
               </span>
-            </div>
-            {/* <TableComponent />
-            <TableComponent />
-            <TableComponent />
-            <TableComponent />
-            <TableComponent />
-            <TableComponent /> */}
-            <div className="left_side_past_paper_table">
-              <SubjectLine
-                title={`vu mid term past paper all subjects`}
-                className={`black_subject_line_text`}
-              />
-
-              <table>
-                <thead>
-                  <tr>
-                    <td>subject code</td>
-                    <td>download links</td>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>ACC-311 mid term paper solve by VUE</td>
-                    <td>download</td>
-                  </tr>
-                  <tr>
-                    <td>ACC-311 mid term paper solve by VUE</td>
-                    <td>download</td>
-                  </tr>
-                  <tr>
-                    <td>ACC-311 mid term paper solve by VUE</td>
-                    <td>download</td>
-                  </tr>
-                  <tr>
-                    <td>ACC-311 mid term paper solve by VUE</td>
-                    <td>download</td>
-                  </tr>
-                  <tr>
-                    <td>ACC-311 mid term paper solve by VUE</td>
-                    <td>download</td>
-                  </tr>
-                  <tr>
-                    <td>ACC-311 mid term paper solve by VUE</td>
-                    <td>download</td>
-                  </tr>
-                  <tr>
-                    <td>ACC-311 mid term paper solve by VUE</td>
-                    <td>download</td>
-                  </tr>
-                  <tr>
-                    <td>ACC-311 mid term paper solve by VUE</td>
-                    <td>download</td>
-                  </tr>
-                  <tr>
-                    <td>ACC-311 mid term paper solve by VUE</td>
-                    <td>download</td>
-                  </tr>
-                  <tr>
-                    <td>ACC-311 mid term paper solve by VUE</td>
-                    <td>download</td>
-                  </tr>
-                  <tr>
-                    <td>ACC-311 mid term paper solve by VUE</td>
-                    <td>download</td>
-                  </tr>
-                  <tr>
-                    <td>ACC-311 mid term paper solve by VUE</td>
-                    <td>download</td>
-                  </tr>
-                  <tr>
-                    <td>ACC-311 mid term paper solve by VUE</td>
-                    <td>download</td>
-                  </tr>
-                  <tr>
-                    <td>ACC-311 mid term paper solve by VUE</td>
-                    <td>download</td>
-                  </tr>
-                  <tr>
-                    <td>ACC-311 mid term paper solve by VUE</td>
-                    <td>download</td>
-                  </tr>
-
-                  <tr>
-                    <td>ACC-311 mid term paper solve by VUE</td>
-                    <td>download</td>
-                  </tr>
-                  <tr>
-                    <td>ACC-311 mid term paper solve by VUE</td>
-                    <td>download</td>
-                  </tr>
-                  <tr>
-                    <td>ACC-311 mid term paper solve by VUE</td>
-                    <td>download</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-
-            <div className="mid_term_past_paper_file">
-              <SubjectLine
-                title={`having trouble opening mid term paper files?`}
-                className={`green_subject_line_text`}
-              />
-              <SubjectLine
-                title={``}
-                className={`green_subject_line_text_lower`}
-              />
-              <p>
-                There are few software’s which are mandatory to be installed in
-                your computer/Mobile, to open these files without any trouble:
+              <ul className="list_container">
+                <li>Make the Ms.Word File On Desktop</li>
+                <li>Then go to The end of The Subjective Questions.</li>
+                <li>
+                  Copy and Paste All Subjective Questions to the word file one
+                  by one .
+                </li>
+                <li>Puts some space between Questions for the Answers.</li>
+                <li>
+                  After that reading the Questions 3 to 4 time to keep in mind
+                  that which Questions has come.
+                </li>
+                <li>Now start Solving MCQs.</li>
+                <li>
+                  In MCQs There is always Answer of your Questions if u found
+                  any MCQs related to Your Questions Copy it and its correct
+                  option and paste it under the question.
+                </li>
+                <li>
+                  So with this Process your MCQ’s and Some of Subjective Answer
+                  will solved in the same time and You don’t have to find them
+                  again and again while solving MCQs.
+                </li>
+                <li>Now Solve rest of the Paper with your own mind.</li>
+                <li>be Focused. You will surely get Maximum marks.</li>
+              </ul>
+              <p className="note_Sec">
+                <span>Please Note:</span> Don't Make MS.Word File in those
+                papers in which you don't allow to use MS.Word.
               </p>
-              <span>
-                Important software for opening .zip .rar and .pdf file
-              </span>
-              <table>
-                <thead>
-                  <tr>
-                    <td>file name</td>
-                    <td>download link</td>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>WinRAR for PC Windows</td>
-                    <td>
-                      <span className="button">Download</span>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>PDF for PC Windows</td>
-                    <td>
-                      <span className="button">Download</span>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>WinRAR for Android</td>
-                    <td>
-                      <span className="button">Download</span>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>WinRAR for Android</td>
-                    <td>
-                      <span className="button">Download</span>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-
-            <div className="left_side_last_discription">
-              <p>
-                Thanks for reading this article. we hope this article about{" "}
-                <b>All Subjects Mid Term Papers Solved by Moaaz</b> was helpful
-                for you. Share with your friends. Thank You.
+              <div className="recommenended">
+                <span className="recom_sec">Recommenended:</span>
+                <span className="link">
+                  How to avoid plagiarism or zero marks in Assignments
+                </span>
+              </div>
+              <p className="disc">
+                You Can Download Solved Mid Term Papers, Short Notes, Lecture
+                Wise Questions Answers Files, Solved MCQs, Solved Quizzes ,
+                Solved Mid Term Subjective Papers , Solved Mid Term Objective
+                Papers From Virtual Study Solutions For Preparation Mid Term
+                Papers.
               </p>
             </div>
           </div>
@@ -230,7 +120,8 @@ const AssignmentComponent = ({ picture }) => {
             <div className="left_side_social_btn">
               <span className="like_btn">Like</span>
               <span className="tweet_btn">tweet</span>
-              <span className="toggle">share
+              <span className="toggle">
+                share
                 <ul>
                   <li>facebook</li>
                   <li>twiter</li>
@@ -245,6 +136,38 @@ const AssignmentComponent = ({ picture }) => {
               </span>
               <span className="status_show">12</span>
             </div>
+          </div>
+
+          <div className="slider">
+            <div className="slider_topic">
+              <span className="slider_text">zarra ye bhee check karein</span>
+              <span className="slider_bar"></span>
+            </div>
+            <div className="carousel_container">
+              <SliderComp />
+            </div>
+          </div>
+
+          <div className="unknown_sec">
+            <h1>Unknown</h1>
+            <p>
+              {" "}
+              Your number one source for Virtual University Assignments
+              Solution, Mid-Term/Final-Term Papers, Quiz, GDB, Final Projects
+              And Much More For VU Students. We’re dedicated to giving you the
+              very best of Help, with a focus on three Features, ie Assignment
+              Solutions, Past Papers and Final Projects.
+            </p>
+            <ul>
+              <li>
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </li>
+              <li>
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </li>
+              <li><i class="fa fa-google-plus-official" aria-hidden="true"></i></li>
+              <li><i class="fa fa-pinterest-p" aria-hidden="true"></i></li>
+            </ul>
           </div>
         </div>
         <RightSide getYear={getYear} picture={picture} />

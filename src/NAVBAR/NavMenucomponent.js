@@ -63,15 +63,14 @@ const NavMenuComponent = () => {
               </span>
               <ul>
                 <li><Link to="/midtermpapersolvingtechnique">Mid Term Paper Solving Technique</Link></li>
-                <li>Difference b/w CGPA and Effective CGPA</li>
-                <li>How to upload Assignment</li>
-                <li>How to solve MCQS fast</li>
-                <li>How to use Exam Software</li>
-                <li>How ot Avoid Zero Marks</li>
-                <li>How to Copy/Save Quiz</li>
-                <li>How to calculate CGPA</li>
-                <li>How to calculate Grades</li>
-                <li>How to improve Grades</li>
+                <li><Link to="/cgpa">Difference b/w CGPA and Effective CGPA</Link></li>
+                <li><Link to="/uploadassignment">How to upload Assignment</Link></li>
+                <li><Link to="/howtosolvemcqs">How to solve MCQS fast</Link></li>
+                <li><Link to="/howtouseexamsoftware">How to use Exam Software</Link></li>
+                <li><Link to="/howtoavoidzeromarksorplagiarism">How ot Avoid Zero Marks</Link></li>
+                <li><Link to="/howtosaveandcopyquiz">How to Copy/Save Quiz</Link></li>
+                <li><Link to="/howtocalculatecpga">How to calculate CGPA</Link></li>
+                <li><Link to="/howtoimprovegrade">How to improve Grades</Link></li>
                 <li>How to Do Course Selection</li>
                 <li>How to Change study Program</li>
                 <li>How to Change study Program</li>
@@ -85,7 +84,7 @@ const NavMenuComponent = () => {
                 <i className="fa fa-caret-down" aria-hidden="true"></i>
               </span>
               <ul>
-                <li>DEV C++</li>
+                <li><Link to="/howtoinstalldevc++">DEV C++</Link></li>
                 <li>Sublime Text 3</li>
                 <li>Winrar</li>
                 <li>Math Type</li>

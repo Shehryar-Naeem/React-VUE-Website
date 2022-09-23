@@ -670,7 +670,6 @@ footer {
   width: 100%;
 }
 .assignment_one_container .right_side .right_side_top .right_side_top_text {
-  display: inline;
   text-transform: uppercase;
   color: #ff0000;
   font-size: 1.2rem;
@@ -1062,12 +1061,12 @@ footer {
   border-radius: 0.5rem;
   box-shadow: 8px 9px 10px #ff0000;
 }
-.pastpaper_container .left_side_Container .left_side .left_side_all_subject_section p {
+.pastpaper_container .left_side_Container .left_side .left_side_all_subject_section .download_instruction {
   font-size: 1.1rem;
   color: rgba(0, 0, 0, 0.8);
   text-transform: capitalize;
 }
-.pastpaper_container .left_side_Container .left_side .left_side_all_subject_section p span {
+.pastpaper_container .left_side_Container .left_side .left_side_all_subject_section .download_instruction span {
   background: yellow;
   text-transform: uppercase;
   font-weight: bold;
@@ -1574,6 +1573,7 @@ footer {
   margin: 0.5rem 0.8rem;
   display: flex;
   flex-direction: column;
+  width: 100%;
   flex: 3;
 }
 .pastpaper_container .left_side_Container .left_side {
@@ -1614,6 +1614,7 @@ footer {
   padding: 0.5rem 0 0.5rem 2.5rem;
   font-size: 1.5rem;
   font-weight: bold;
+  text-transform: capitalize;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 .pastpaper_container .left_side_Container .left_side .left_side_header .search_btn {
@@ -1654,15 +1655,19 @@ footer {
   border-radius: 0.5rem;
   box-shadow: 8px 9px 10px #ff0000;
 }
-.pastpaper_container .left_side_Container .left_side .left_side_all_subject_section p {
+.pastpaper_container .left_side_Container .left_side .left_side_all_subject_section .download_instruction {
   font-size: 1.1rem;
   color: rgba(0, 0, 0, 0.8);
   text-transform: capitalize;
 }
-.pastpaper_container .left_side_Container .left_side .left_side_all_subject_section p span {
+.pastpaper_container .left_side_Container .left_side .left_side_all_subject_section .download_instruction span {
   background: yellow;
   text-transform: uppercase;
   font-weight: bold;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_all_subject_section p {
+  font-size: 1.2rem;
+  line-height: 2;
 }
 .pastpaper_container .left_side_Container .left_side .left_side_all_subject_section .img_container {
   margin: 0 auto;
@@ -1678,6 +1683,952 @@ footer {
   text-align: center;
   font-size: 1rem;
   text-transform: capitalize;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_all_subject_section .submit_announced {
+  font-size: 1.2rem;
+  line-height: 2;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_all_subject_section .submit_announced span {
+  color: #ff0000;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_save_and_copy_quiz .black_subject_line_text {
+  display: block;
+  text-align: center;
+  padding: 1rem 0;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 8px 9px 10px #ff0000;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_save_and_copy_quiz .save_copy_info {
+  padding: 2rem 0;
+  font-size: 1.2rem;
+  line-height: 2;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_save_and_copy_quiz .save_copy_info span {
+  color: #ff0000;
+  cursor: pointer;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_save_and_copy_quiz .save_copy_info span:hover {
+  color: #0064BB;
+  text-decoration: underline;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_save_and_copy_quiz .quiz_note {
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 2;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_save_and_copy_quiz .img_container {
+  width: 20rem;
+  height: 15rem;
+  margin: 0 auto;
+  padding: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.pastpaper_container .left_side_Container .left_side .left_side_save_and_copy_quiz .img_container img {
+  width: 100%;
+  height: 100%;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_save_and_copy_quiz .caption_pic {
+  padding: 0.5rem 0;
+  display: block;
+  font-size: 1rem;
+  text-align: center;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_save_and_copy_quiz .link {
+  font-size: 1.2rem;
+  line-height: 3;
+  color: #ff0000;
+  cursor: pointer;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_save_and_copy_quiz .link:hover {
+  color: #0064BB;
+  text-decoration: underline;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_what_is_cgpa .black_subject_line_text {
+  display: block;
+  text-align: center;
+  padding: 1rem 0;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 8px 9px 10px #ff0000;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_what_is_cgpa .cgpa {
+  padding: 2rem 0;
+  font-size: 1.2rem;
+  line-height: 2;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_what_is_cgpa .cgpa span {
+  color: #ff0000;
+  cursor: pointer;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_what_is_cgpa .cgpa span:hover {
+  color: #0064BB;
+  text-decoration: underline;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_what_is_cgpa .img_container {
+  width: 20rem;
+  height: 15rem;
+  margin: 0 auto;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 0.5rem;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_what_is_cgpa .img_container img {
+  width: 100%;
+  height: 100%;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_what_is_cgpa .img_caption {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0.5rem;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_what_is_cgpa .discription {
+  font-size: 1.2rem;
+  line-height: 2;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_how_to_calculate_your_cgpa .black_subject_line_text {
+  display: block;
+  text-align: center;
+  padding: 1rem 0;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 8px 9px 10px #ff0000;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_how_to_calculate_your_cgpa .calculation_info {
+  padding: 2rem 0;
+  font-size: 1.2rem;
+  line-height: 2;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_how_to_calculate_your_cgpa .follow_points {
+  font-size: 1.2rem;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_how_to_calculate_your_cgpa .step1 {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_how_to_calculate_your_cgpa .discription_step1 {
+  font-size: 1.2rem;
+  line-height: 2;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_how_to_calculate_your_cgpa .step2 {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_how_to_calculate_your_cgpa .discription_step2 {
+  font-size: 1.2rem;
+  line-height: 2;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_how_to_calculate_your_cgpa .step3 {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_how_to_calculate_your_cgpa .discription_step3 {
+  font-size: 1.2rem;
+  line-height: 2;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_how_to_calculate_your_cgpa .step4 {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_how_to_calculate_your_cgpa .discription_step4 {
+  font-size: 1.2rem;
+  line-height: 2;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_how_to_calculate_your_cgpa .remember {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_how_to_calculate_your_cgpa .discription_remember {
+  font-size: 1.2rem;
+  line-height: 2;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_how_to_calculate_your_cgpa p {
+  font-size: 1.2rem;
+  line-height: 2;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_what_is_gpa .black_subject_line_text {
+  display: block;
+  text-align: center;
+  padding: 1rem 0;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 8px 9px 10px #ff0000;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_what_is_gpa .important_note {
+  font-size: 1.2rem;
+  line-height: 2;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_what_is_gpa .important_note span {
+  color: #ff0000;
+  cursor: pointer;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_what_is_gpa .important_note span:hover {
+  color: #0064BB;
+  text-decoration: underline;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_improve_marks .img_container {
+  width: 20rem;
+  height: 15rem;
+  margin: 0 auto;
+  padding: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.pastpaper_container .left_side_Container .left_side .left_side_improve_marks .img_container img {
+  width: 100%;
+  height: 100%;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_improve_marks .caption_pic {
+  display: block;
+  font-size: 1rem;
+  text-align: center;
+  padding: 0.5rem 0;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_improve_grade_after_midterm .black_subject_line_text {
+  display: block;
+  text-align: center;
+  padding: 1rem 0;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 8px 9px 10px #ff0000;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_improve_grade_after_midterm ol {
+  padding: 0 2rem;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_improve_grade_after_midterm ol li {
+  font-size: 1.2rem;
+  line-height: 2;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_improve_grade_after_midterm .calculation {
+  font-size: 1.2rem;
+  line-height: 2;
+  padding-bottom: 2rem;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_improve_grade_after_midterm .calculation span {
+  color: #ff0000;
+  cursor: pointer;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_improve_grade_after_midterm .calculation span:hover {
+  color: #0064BB;
+  text-decoration: underline;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_improve_grade_after_midterm .green_subject_line_text {
+  display: block;
+  text-align: center;
+  padding: 1rem 0;
+  background: #05659A;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 8px 9px 10px #9FDB51;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_improve_grade_after_midterm .difference {
+  font-size: 1.2rem;
+  line-height: 2;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_improve_grade_after_midterm .difference span {
+  color: #ff0000;
+  cursor: pointer;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_improve_grade_after_midterm .difference span:hover {
+  color: #0064BB;
+  text-decoration: underline;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_save_and_copy_quiz_pattrem .black_subject_line_text {
+  display: block;
+  text-align: center;
+  padding: 1rem 0;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 8px 9px 10px #ff0000;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_save_and_copy_quiz_pattrem .note {
+  padding: 2rem 0;
+  line-height: 2;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_save_and_copy_quiz_pattrem .img_container {
+  width: 20rem;
+  height: 15rem;
+  margin: 0 auto;
+  padding: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.pastpaper_container .left_side_Container .left_side .left_side_save_and_copy_quiz_pattrem .img_container img {
+  width: 100%;
+  height: 100%;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_save_and_copy_quiz_pattrem .img_caption {
+  display: block;
+  text-align: center;
+  padding: 0.5rem 0 3rem 0;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_save_and_copy_quiz_pattrem .recommended {
+  font-size: 1.2rem;
+  padding: 2rem 0 1rem 0;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_save_and_copy_quiz_pattrem .recommended span {
+  color: #ff0000;
+  cursor: pointer;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_save_and_copy_quiz_pattrem .recommended span:hover {
+  color: #0064BB;
+  text-decoration: underline;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_method_2 .black_subject_line_text {
+  display: block;
+  text-align: center;
+  padding: 1rem 0;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 8px 9px 10px #ff0000;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_method_2 .discription {
+  font-size: 1.2rem;
+  line-height: 2;
+  padding: 2rem 0;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_method_2 .follow_step {
+  font-size: 1.2rem;
+  line-height: 2;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_method_2 ul {
+  padding: 0 2rem;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_method_2 ul li {
+  font-size: 1.2rem;
+  line-height: 2;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_method_2 .recommended {
+  font-size: 1.2rem;
+  padding: 2rem 0 1rem 0;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_method_2 .recommended span {
+  color: #ff0000;
+  cursor: pointer;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_method_2 .recommended span:hover {
+  color: #0064BB;
+  text-decoration: underline;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_method_3 .black_subject_line_text {
+  display: block;
+  text-align: center;
+  padding: 1rem 0;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 8px 9px 10px #ff0000;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_method_3 ol {
+  padding: 0 2rem;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_method_3 ol li {
+  line-height: 2;
+  font-size: 1.2rem;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_method_3 .please_note {
+  padding: 1rem 0;
+  font-size: 1.2rem;
+  line-height: 2;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_method_3 .please_note span {
+  color: #38762B;
+  font-weight: bold;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_method_3 .imporve_note {
+  font-size: 1.2rem;
+  line-height: 2;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_method_3 .imporve_note span {
+  color: #ff0000;
+  cursor: pointer;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_method_3 .imporve_note span:hover {
+  color: #0064BB;
+  text-decoration: underline;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_use_exam_software .black_subject_line_text {
+  display: block;
+  text-align: center;
+  padding: 1rem 0;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 8px 9px 10px #ff0000;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_use_exam_software .guide_intro_sec {
+  padding: 2rem 0;
+  font-size: 1.2rem;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_use_exam_software .guide_intro_sec span {
+  color: #ff0000;
+  cursor: pointer;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_use_exam_software .guide_intro_sec span:hover {
+  color: #0064BB;
+  text-decoration: underline;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_use_exam_software .img_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20rem;
+  height: 15rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  padding: 0.5rem;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_use_exam_software .img_container img {
+  width: 100%;
+  height: 100%;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_use_exam_software .caption_pic {
+  padding: 1rem 0;
+  display: block;
+  text-align: center;
+  font-size: 1rem;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_use_exam_software .recommended {
+  font-size: 1.2rem;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_use_exam_software .recommended span {
+  color: #ff0000;
+  cursor: pointer;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_use_exam_software .recommended span:hover {
+  color: #0064BB;
+  text-decoration: underline;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_duration_of_paper .black_subject_line_text {
+  display: block;
+  text-align: center;
+  padding: 1rem 0;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 8px 9px 10px #ff0000;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_duration_of_paper ul {
+  padding: 2rem;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_duration_of_paper ul li {
+  font-size: 1.2rem;
+  line-height: 2;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_duration_of_paper .login_slip {
+  font-size: 1.2rem;
+  line-height: 2;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_duration_of_paper .green_subject_line_text {
+  display: block;
+  text-align: center;
+  padding: 1rem 0;
+  background: #05659A;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 8px 9px 10px #9FDB51;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_duration_of_paper .avoid_info {
+  font-size: 1.2rem;
+  line-height: 2;
+  padding: 2rem 0 1rem 0;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_duration_of_paper .avoid_points {
+  padding: 0 2rem;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_avoid_getting_zero_marks .black_subject_line_text {
+  display: block;
+  text-align: center;
+  padding: 1rem 0;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 8px 9px 10px #ff0000;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_avoid_getting_zero_marks .avoid_plagiarism {
+  padding: 2rem 0;
+  font-size: 1.2rem;
+  line-height: 2;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_avoid_getting_zero_marks .img_container {
+  width: 20rem;
+  height: 15rem;
+  margin: 0 auto;
+  padding: 0.2rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.pastpaper_container .left_side_Container .left_side .left_side_avoid_getting_zero_marks .img_container img {
+  width: 100%;
+  height: 100%;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_avoid_getting_zero_marks .caption_pic {
+  padding: 0.5rem 0;
+  display: block;
+  text-align: center;
+  font-size: 1rem;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_avoid_getting_zero_marks .recommended {
+  font-size: 1.2rem;
+  line-height: 2;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_avoid_getting_zero_marks .recommended span {
+  color: #ff0000;
+  cursor: pointer;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_avoid_getting_zero_marks .recommended span:hover {
+  color: #0064BB;
+  text-decoration: underline;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_theise_step .black_subject_line_text {
+  display: block;
+  text-align: center;
+  padding: 1rem 0;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 8px 9px 10px #ff0000;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_theise_step .note {
+  padding: 2rem 0;
+  font-size: 1.2rem;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_theise_step .recommended {
+  font-size: 1.2rem;
+  line-height: 2;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_theise_step .recommended span {
+  color: #ff0000;
+  cursor: pointer;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_theise_step .recommended span:hover {
+  color: #0064BB;
+  text-decoration: underline;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_theise_step .issue_of_plagiarism {
+  font-size: 1.2rem;
+  line-height: 2;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_theise_step ul {
+  padding: 0 2rem;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_theise_step ul li {
+  font-size: 1.2rem;
+  line-height: 2;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_theise_step .good_luck_wishes {
+  font-size: 1.2rem;
+  line-height: 2;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_theise_step .follow_info {
+  font-size: 1.2rem;
+  line-height: 2;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_software_demo .black_subject_line_text {
+  display: block;
+  text-align: center;
+  padding: 1rem 0;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 8px 9px 10px #ff0000;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_software_demo .video_of_use_software {
+  padding: 2rem 0;
+  width: 50rem;
+  height: 30rem;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_software_demo .video_of_use_software video {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_software_demo .thanks_notes {
+  font-size: 1.2rem;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_upload_tutorial .black_subject_line_text {
+  display: block;
+  text-align: center;
+  padding: 1rem 0;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 8px 9px 10px #ff0000;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_upload_tutorial .green_subject_line_text {
+  margin: 2rem 0;
+  display: block;
+  text-align: center;
+  padding: 1rem 0;
+  background: #05659A;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 8px 9px 10px #9FDB51;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_upload_tutorial ul {
+  padding: 0 2rem;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_upload_tutorial ul li {
+  line-height: 2;
+  font-size: 1.2rem;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_upload_tutorial ul li span {
+  color: #ff0000;
+  cursor: pointer;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_upload_tutorial ul li span:hover {
+  color: #0064BB;
+  text-decoration: underline;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_upload_tutorial .align_img {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_upload_tutorial .pic_caption {
+  text-align: center;
+  font-size: 1rem;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_upload_tutorial .click_info {
+  font-size: 1.2rem;
+  line-height: 2;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_how_to_solve_MCQs .black_subject_line_text {
+  display: block;
+  text-align: center;
+  padding: 1rem 0;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 8px 9px 10px #ff0000;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_how_to_solve_MCQs .learn_fast {
+  padding: 2rem 0;
+  line-height: 2;
+  font-size: 1.2rem;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_how_to_solve_MCQs .align_img {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_how_to_solve_MCQs .pic_caption {
+  text-align: center;
+  font-size: 1rem;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_how_to_solve_MCQs .question {
+  padding: 1rem 0;
+  font-size: 1.2rem;
+  line-height: 2;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_how_to_solve_MCQs .recommended {
+  font-size: 1.2rem;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_how_to_solve_MCQs .recommended span {
+  color: #ff0000;
+  cursor: pointer;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_how_to_solve_MCQs .recommended span:hover {
+  color: #0064BB;
+  text-decoration: underline;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_guideline_to_solve_mcqs .black_subject_line_text {
+  display: block;
+  text-align: center;
+  padding: 1rem 0;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 8px 9px 10px #ff0000;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_guideline_to_solve_mcqs .important_discuss {
+  padding: 2rem 0;
+  font-size: 1.2rem;
+  line-height: 3;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_guideline_to_solve_mcqs ul {
+  padding: 0 2rem;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_guideline_to_solve_mcqs ul li {
+  font-size: 1.2rem;
+  line-height: 2;
+  font-weight: 300;
+  text-transform: capitalize;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_think_first_act_later .black_subject_line_text {
+  display: block;
+  text-align: center;
+  padding: 1rem 0;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 8px 9px 10px #ff0000;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_think_first_act_later .discription {
+  padding: 2rem 0;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 2;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_think_first_act_later .recommended {
+  font-size: 1.2rem;
+  padding-bottom: 2rem;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_think_first_act_later .recommended span {
+  color: #ff0000;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_think_first_act_later .recommended span:hover {
+  color: #0064BB;
+  text-decoration: underline;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_method_of_eliminate .black_subject_line_text {
+  display: block;
+  text-align: center;
+  padding: 1rem 0;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 8px 9px 10px #ff0000;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_method_of_eliminate .discription {
+  padding: 2rem 0;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 2;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_method_of_eliminate .recommended {
+  font-size: 1.2rem;
+  padding-bottom: 2rem;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_method_of_eliminate .recommended span {
+  color: #ff0000;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_method_of_eliminate .recommended span:hover {
+  color: #0064BB;
+  text-decoration: underline;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_dont_see_option_yet .black_subject_line_text {
+  display: block;
+  text-align: center;
+  padding: 1rem 0;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 8px 9px 10px #ff0000;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_dont_see_option_yet .discription {
+  padding: 2rem 0;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 2;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_dont_see_option_yet .recommended {
+  font-size: 1.2rem;
+  padding-bottom: 2rem;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_dont_see_option_yet .recommended span {
+  color: #ff0000;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_dont_see_option_yet .recommended span:hover {
+  color: #0064BB;
+  text-decoration: underline;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_let_me_fill_the_blanks .black_subject_line_text {
+  display: block;
+  text-align: center;
+  padding: 1rem 0;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 8px 9px 10px #ff0000;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_let_me_fill_the_blanks .discription {
+  padding: 2rem 0;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 2;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_let_me_fill_the_blanks .recommended {
+  font-size: 1.2rem;
+  padding-bottom: 2rem;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_let_me_fill_the_blanks .recommended span {
+  color: #ff0000;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_let_me_fill_the_blanks .recommended span:hover {
+  color: #0064BB;
+  text-decoration: underline;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_combined_approach .black_subject_line_text {
+  display: block;
+  text-align: center;
+  padding: 1rem 0;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 8px 9px 10px #ff0000;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_combined_approach .discription {
+  padding: 2rem 0;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 2;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_combined_approach .recommended {
+  font-size: 1.2rem;
+  padding-bottom: 2rem;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_combined_approach .recommended span {
+  color: #ff0000;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_combined_approach .recommended span:hover {
+  color: #0064BB;
+  text-decoration: underline;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_combined_approach .discription2 {
+  padding: 2rem 0;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 2;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_combined_approach .discription2 span {
+  color: #ff0000;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_combined_approach .discription2 span:hover {
+  color: #0064BB;
+  text-decoration: underline;
+}
+.pastpaper_container .left_side_Container .left_side .recommended_tutorials .black_subject_line_text {
+  display: block;
+  text-align: center;
+  padding: 1rem 0;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 8px 9px 10px #ff0000;
+}
+.pastpaper_container .left_side_Container .left_side .recommended_tutorials ul {
+  padding: 2rem 2rem;
+}
+.pastpaper_container .left_side_Container .left_side .recommended_tutorials ul li {
+  line-height: 3;
+  font-size: 1.2rem;
+  color: #ff0000;
+  cursor: pointer;
+}
+.pastpaper_container .left_side_Container .left_side .recommended_tutorials ul li:hover {
+  color: #0064BB;
+  text-decoration: underline;
+}
+.pastpaper_container .left_side_Container .left_side .recommended_tutorials p {
+  line-height: 3;
+  font-size: 1.2rem;
+}
+.pastpaper_container .left_side_Container .left_side .recommended_tutorials p span {
+  color: #ff0000;
+  cursor: pointer;
+}
+.pastpaper_container .left_side_Container .left_side .recommended_tutorials p span:hover {
+  color: #0064BB;
+  text-decoration: underline;
 }
 .pastpaper_container .left_side_Container .left_side .left_side_video_download_section {
   margin-top: 2rem;
@@ -1696,18 +2647,127 @@ footer {
   border-radius: 0.5rem;
   box-shadow: 8px 9px 10px #9FDB51;
 }
-.pastpaper_container .left_side_Container .left_side .left_side_video_download_section .left_side_video {
-  margin: 5rem auto;
-  width: 35rem;
-  height: 20rem;
+.pastpaper_container .left_side_Container .left_side .left_side_video_download_section .text {
+  margin: 2rem 0;
 }
-.pastpaper_container .left_side_Container .left_side .left_side_video_download_section .left_side_video video {
-  width: 100%;
-  height: 100%;
+.pastpaper_container .left_side_Container .left_side .left_side_video_download_section .list_container {
+  padding-left: 1.5rem;
 }
-.pastpaper_container .left_side_Container .left_side .left_side_video_download_section .left_side_video video source {
-  width: 100%;
-  height: 100%;
+.pastpaper_container .left_side_Container .left_side .left_side_video_download_section .list_container li {
+  line-height: 2;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_video_download_section .note_Sec {
+  padding: 1rem 0;
+  font-size: 1rem;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_video_download_section .note_Sec span {
+  color: #2200bb;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_video_download_section .recommenended .recom_sec {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_video_download_section .recommenended .link {
+  padding-left: 0.5rem;
+  color: #ff0000;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_video_download_section .recommenended .link:hover {
+  color: #1877F2;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_video_download_section .disc {
+  padding: 2rem 0;
+  line-height: 2;
+}
+.pastpaper_container .left_side_Container .left_side .types_of_cgpa .black_subject_line_text {
+  display: block;
+  text-align: center;
+  padding: 1rem 0;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 8px 9px 10px #ff0000;
+}
+.pastpaper_container .left_side_Container .left_side .types_of_cgpa p {
+  padding: 2rem 0;
+  font-size: 1.5rem;
+}
+.pastpaper_container .left_side_Container .left_side .types_of_cgpa ol {
+  padding: 0 1rem;
+  font-size: 1.2rem;
+  line-height: 2;
+}
+.pastpaper_container .left_side_Container .left_side .types_of_cgpa .green_subject_line_text {
+  display: block;
+  text-align: center;
+  padding: 1rem 0;
+  background: #05659A;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 8px 9px 10px #9FDB51;
+}
+.pastpaper_container .left_side_Container .left_side .difference_cgpa_effectiveCgpa .black_subject_line_text {
+  display: block;
+  text-align: center;
+  padding: 1rem 0;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 8px 9px 10px #ff0000;
+}
+.pastpaper_container .left_side_Container .left_side .difference_cgpa_effectiveCgpa .cpga_weight {
+  padding: 2rem 0;
+  font-size: 1.2rem;
+  line-height: 2;
+}
+.pastpaper_container .left_side_Container .left_side .difference_cgpa_effectiveCgpa .grade {
+  padding: 1rem 0;
+  font-size: 1.2rem;
+  line-height: 2;
+}
+.pastpaper_container .left_side_Container .left_side .difference_cgpa_effectiveCgpa p {
+  padding: 2rem 0;
+  font-size: 1.2rem;
+  line-height: 2;
+}
+.pastpaper_container .left_side_Container .left_side .difference_cgpa_effectiveCgpa .read {
+  padding: 1rem 0;
+  font-size: 1.2rem;
+}
+.pastpaper_container .left_side_Container .left_side .difference_cgpa_effectiveCgpa .read span {
+  color: #ff0000;
+  cursor: pointer;
+}
+.pastpaper_container .left_side_Container .left_side .difference_cgpa_effectiveCgpa .read span:hover {
+  color: #1877F2;
+  text-decoration: underline;
+}
+.pastpaper_container .left_side_Container .left_side .difference_cgpa_effectiveCgpa strong {
+  font-size: 1.5rem;
+}
+.pastpaper_container .left_side_Container .left_side .difference_cgpa_effectiveCgpa ul {
+  padding: 1rem 2rem;
+}
+.pastpaper_container .left_side_Container .left_side .difference_cgpa_effectiveCgpa ul li {
+  color: #ff0000;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.pastpaper_container .left_side_Container .left_side .difference_cgpa_effectiveCgpa ul li:hover {
+  color: #0064BB;
+  text-decoration: underline;
 }
 .pastpaper_container .left_side_Container .left_side .mcm_subjects_mid_term_past_papers .title {
   background: yellow;
@@ -1747,7 +2807,9 @@ footer {
   margin: 2rem 0;
   width: 100%;
 }
-.pastpaper_container .left_side_Container .left_side .mcm_subjects_mid_term_past_papers table, .pastpaper_container .left_side_Container .left_side .mcm_subjects_mid_term_past_papers thead, .pastpaper_container .left_side_Container .left_side .mcm_subjects_mid_term_past_papers td {
+.pastpaper_container .left_side_Container .left_side .mcm_subjects_mid_term_past_papers table,
+.pastpaper_container .left_side_Container .left_side .mcm_subjects_mid_term_past_papers thead,
+.pastpaper_container .left_side_Container .left_side .mcm_subjects_mid_term_past_papers td {
   border: 2px solid black;
   border-collapse: collapse;
 }
@@ -1783,7 +2845,9 @@ footer {
   width: 100%;
   border-spacing: 0.25 rem;
 }
-.pastpaper_container .left_side_Container .left_side .left_side_past_paper_table table, .pastpaper_container .left_side_Container .left_side .left_side_past_paper_table thead, .pastpaper_container .left_side_Container .left_side .left_side_past_paper_table td {
+.pastpaper_container .left_side_Container .left_side .left_side_past_paper_table table,
+.pastpaper_container .left_side_Container .left_side .left_side_past_paper_table thead,
+.pastpaper_container .left_side_Container .left_side .left_side_past_paper_table td {
   border: 1px solid #000;
   text-align: center;
 }
@@ -1834,7 +2898,9 @@ footer {
   font-size: 1.2rem;
   font-weight: bold;
 }
-.pastpaper_container .left_side_Container .left_side .mid_term_past_paper_file table, .pastpaper_container .left_side_Container .left_side .mid_term_past_paper_file thead, .pastpaper_container .left_side_Container .left_side .mid_term_past_paper_file td {
+.pastpaper_container .left_side_Container .left_side .mid_term_past_paper_file table,
+.pastpaper_container .left_side_Container .left_side .mid_term_past_paper_file thead,
+.pastpaper_container .left_side_Container .left_side .mid_term_past_paper_file td {
   border: 1px solid #000;
   border-spacing: 0.25rem;
 }
@@ -1866,6 +2932,104 @@ footer {
 .pastpaper_container .left_side_Container .left_side .left_side_last_discription p {
   line-height: 3;
   font-size: 1rem;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_installation_and_guidelines .black_subject_line_text {
+  margin-top: 2rem;
+  display: block;
+  text-align: center;
+  padding: 1rem 0;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 8px 9px 10px #ff0000;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_installation_and_guidelines .img_container {
+  width: 20rem;
+  height: 15rem;
+  margin: 0 auto;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 0.5rem;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_installation_and_guidelines .img_container img {
+  width: 100%;
+  height: 100%;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_installation_and_guidelines .pic_caption {
+  display: block;
+  text-align: center;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_dev_version_recommendation .black_subject_line_text {
+  margin-top: 2rem;
+  display: block;
+  text-align: center;
+  padding: 1rem 0;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 8px 9px 10px #ff0000;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_dev_version_recommendation ul {
+  padding: 0 2rem;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_dev_version_recommendation ul li {
+  font-size: 1.2rem;
+  line-height: 2;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_dev_version_recommendation .recommendation {
+  font-size: 1.2rem;
+  line-height: 2;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_dev_version_recommendation .recommendation span {
+  color: #ff0000;
+  cursor: pointer;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_dev_version_recommendation .recommendation span:hover {
+  color: #0064BB;
+  text-decoration: underline;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_dev_installation_guide .black_subject_line_text {
+  margin-top: 2rem;
+  display: block;
+  text-align: center;
+  padding: 1rem 0;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 8px 9px 10px #ff0000;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_dev_installation_guide .green_subject_line_text {
+  display: block;
+  text-align: center;
+  padding: 1rem 0;
+  background: #05659A;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 8px 9px 10px #9FDB51;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_dev_installation_guide .set_up {
+  padding: 1rem 0;
+  font-size: 1.2rem;
+  line-height: 3;
+  color: #ff0000;
+  cursor: pointer;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_dev_installation_guide .set_up:hover {
+  color: #0064BB;
+  text-decoration: underline;
 }
 .pastpaper_container .left_side_Container .left_side_social_side {
   padding: 2rem 1em;
@@ -1907,6 +3071,7 @@ footer {
   cursor: pointer;
   position: relative;
   display: flex;
+  z-index: 1;
 }
 .pastpaper_container .left_side_Container .left_side_social_side .left_side_social_btn .toggle ul {
   display: none;
@@ -1971,6 +3136,57 @@ footer {
   top: 50%;
   background: #fff;
   transform: translateY(-50%) rotate(45deg);
+}
+.pastpaper_container .left_side_Container .slider {
+  margin: 1rem 0;
+}
+.pastpaper_container .left_side_Container .slider .slider_topic {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.pastpaper_container .left_side_Container .slider .slider_topic .slider_text {
+  display: inline;
+  text-transform: uppercase;
+  color: #ff0000;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.pastpaper_container .left_side_Container .slider .slider_topic .slider_bar {
+  flex: 1;
+  width: 100%;
+  height: 1rem;
+  background: #000;
+  opacity: 0.1;
+}
+.pastpaper_container .left_side_Container .slider .carousel_container {
+  margin-top: 1rem;
+  padding: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  width: 100%;
+}
+.pastpaper_container .left_side_Container .unknown_sec {
+  margin-top: 1rem;
+  padding: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  width: 100%;
+}
+.pastpaper_container .left_side_Container .unknown_sec h1 {
+  font-size: 1.5rem;
+}
+.pastpaper_container .left_side_Container .unknown_sec p {
+  font-size: 1.2rem;
+}
+.pastpaper_container .left_side_Container .unknown_sec ul {
+  display: flex;
+}
+.pastpaper_container .left_side_Container .unknown_sec ul li {
+  list-style: none;
+  padding: 0.5rem;
+  background: #7F0000;
+  color: #fff;
+  cursor: pointer;
 }
 .pastpaper_container .right_side {
   flex: 1;
@@ -2098,7 +3314,8 @@ footer {
   text-decoration: none;
   width: 100%;
 }
-.pastpaper_container .right_side .right_courseNavigation_area :nth-child(2), .pastpaper_container .right_side .right_courseNavigation_area :nth-child(3) {
+.pastpaper_container .right_side .right_courseNavigation_area :nth-child(2),
+.pastpaper_container .right_side .right_courseNavigation_area :nth-child(3) {
   width: 100%;
   text-align: center;
   padding: 0.5rem 1rem;
@@ -2107,7 +3324,8 @@ footer {
   font-weight: bold;
   cursor: pointer;
 }
-.pastpaper_container .right_side .right_courseNavigation_area :nth-child(2) a, .pastpaper_container .right_side .right_courseNavigation_area :nth-child(3) a {
+.pastpaper_container .right_side .right_courseNavigation_area :nth-child(2) a,
+.pastpaper_container .right_side .right_courseNavigation_area :nth-child(3) a {
   background: #000;
 }
 .pastpaper_container .right_side .right_trending_area {
@@ -2140,7 +3358,9 @@ footer {
   .pastpaper_container .right_side .right_courseNavigation_area {
     display: flex;
   }
-  .pastpaper_container .right_side .right_courseNavigation_area :nth-child(1), .pastpaper_container .right_side .right_courseNavigation_area :nth-child(2), .pastpaper_container .right_side .right_courseNavigation_area :nth-child(3) {
+  .pastpaper_container .right_side .right_courseNavigation_area :nth-child(1),
+.pastpaper_container .right_side .right_courseNavigation_area :nth-child(2),
+.pastpaper_container .right_side .right_courseNavigation_area :nth-child(3) {
     padding: 0.3rem;
     font-size: 0.8rem;
   }
@@ -2154,7 +3374,9 @@ footer {
     display: flex;
     gap: 0.1rem;
   }
-  .pastpaper_container .right_side .right_courseNavigation_area :nth-child(1), .pastpaper_container .right_side .right_courseNavigation_area :nth-child(2), .pastpaper_container .right_side .right_courseNavigation_area :nth-child(3) {
+  .pastpaper_container .right_side .right_courseNavigation_area :nth-child(1),
+.pastpaper_container .right_side .right_courseNavigation_area :nth-child(2),
+.pastpaper_container .right_side .right_courseNavigation_area :nth-child(3) {
     font-size: 0.5rem;
   }
 }
@@ -2166,7 +3388,6 @@ footer {
 
 body {
   list-style: none;
-  overflow-x: hidden;
   text-decoration: none;
 }
 
