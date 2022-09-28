@@ -2,10 +2,13 @@
     display: flex;
     padding: 0 calc((100vw - 1200px) / 2);
     .left_side_Container{
-        margin: 0.5rem 0.8rem;
+        margin: 0.5rem 0.8rem;   
         display: flex;
         flex-direction: column;
-        flex: 3;
+        flex: 2;
+       
+        min-width: 15rem;
+        max-width: 100%;
         .left_side{
             padding: 0 1em;
             border: 1px solid rgba(0, 0, 0, 0.3);
@@ -577,7 +580,12 @@
     .pastpaper_container{
         display: flex;
         flex-direction: column;
-        
+        width: 100%;
+        .left_side_Container{
+            margin: 0;
+            min-width: 100%;
+            max-width: 100%;
+        }
         .right_side{
             flex:0.5;
             width: 100%;

@@ -12,8 +12,8 @@ const SliderComp=()=>{
                 {
                     AssignmentData.map((cur,index)=>{
                         return (
-                            <div key={index}>
-                                <img src={cur} alt="assignment" style={{width:"10rem",height:"10rem"}}/>
+                            <div key={index} className="slider_img">
+                                <img src={cur} alt="assignment"/>
                             </div>
                         )
                     })

@@ -28,6 +28,11 @@ import HowtoSaveAndCopyQuiz from "./Pages/HOwToPage/HowtoCopyandSaveQuiz";
 import HowtoCalculateCGPA from "./Pages/HOwToPage/HowtoCalculateCGPA";
 import HowtoImprovegrade from "./Pages/HOwToPage/HowtoImprovegrade";
 import HowtoinstallDEV from "./Pages/SoftwarePages/DevC++page";
+import HowToInstallSublimeIDE from "./Pages/SoftwarePages/SublimePage";
+import HowtoInstallWinRAR from "./Pages/SoftwarePages/WinRar";
+import HowtoDownloadMathSoftware from "./Pages/SoftwarePages/MathSoftware";
+import JavaDevelopmentKit from "./Pages/SoftwarePages/JavaDevelopmentkit";
+import VisualStudioProcedurePage from "./Pages/SoftwarePages/VisualStudio";
 const getYear = new Date().getFullYear();
 
 const App = () => {
@@ -153,30 +158,67 @@ const App = () => {
           <Route path="archive" element={<Archive />} />
         </Route>
 
-        <Route path="/howtosaveandcopyquiz" element={<HowtoSaveAndCopyQuiz/>}>
-        <Route path="" element={<TrendingSection getYear={getYear} />} />
+        <Route path="/howtosaveandcopyquiz" element={<HowtoSaveAndCopyQuiz />}>
+          <Route path="" element={<TrendingSection getYear={getYear} />} />
           <Route path="comments" element={<Comment />} />
           <Route path="archive" element={<Archive />} />
         </Route>
 
-        <Route path="/howtocalculatecpga" element={<HowtoCalculateCGPA/>}>
-        <Route path="" element={<TrendingSection getYear={getYear} />} />
+        <Route path="/howtocalculatecpga" element={<HowtoCalculateCGPA />}>
+          <Route path="" element={<TrendingSection getYear={getYear} />} />
           <Route path="comments" element={<Comment />} />
           <Route path="archive" element={<Archive />} />
         </Route>
 
-        <Route path="/howtoimprovegrade" element={<HowtoImprovegrade/>}>
-        <Route path="" element={<TrendingSection getYear={getYear} />} />
+        <Route path="/howtoimprovegrade" element={<HowtoImprovegrade />}>
+          <Route path="" element={<TrendingSection getYear={getYear} />} />
           <Route path="comments" element={<Comment />} />
           <Route path="archive" element={<Archive />} />
         </Route>
 
+        {/* how to install software */}
+        <Route path="/howtoinstalldevc++" element={<HowtoinstallDEV />}>
+          <Route path="" element={<TrendingSection getYear={getYear} />} />
+          <Route path="comments" element={<Comment />} />
+          <Route path="archive" element={<Archive />} />
+        </Route>
 
-        <Route path="/howtoinstalldevc++" element={<HowtoinstallDEV/>}>
+        <Route
+          path="/howtoinstallsublimetextide"
+          element={<HowToInstallSublimeIDE />}
+        >
+          <Route path="" element={<TrendingSection getYear={getYear} />} />
+          <Route path="comments" element={<Comment />} />
+          <Route path="archive" element={<Archive />} />
+        </Route>
+
+        <Route path="/howtoinstallwinrar" element={<HowtoInstallWinRAR />}>
+          <Route path="" element={<TrendingSection getYear={getYear} />} />
+          <Route path="comments" element={<Comment />} />
+          <Route path="archive" element={<Archive />} />
+        </Route>
+
+        <Route
+          path="/howtodownloadmathsoftware"
+          element={<HowtoDownloadMathSoftware />}
+        >
+          <Route path="" element={<TrendingSection getYear={getYear} />} />
+          <Route path="comments" element={<Comment />} />
+          <Route path="archive" element={<Archive />} />
+        </Route>
+
+        <Route path="/javadevelopementkit" element={<JavaDevelopmentKit />}>
+          <Route path="" element={<TrendingSection getYear={getYear} />} />
+          <Route path="comments" element={<Comment />} />
+          <Route path="archive" element={<Archive />} />
+        </Route>
+        
+        <Route path="/howtoinstallandusevisualstudiocode" element={<VisualStudioProcedurePage/>}>
         <Route path="" element={<TrendingSection getYear={getYear} />} />
           <Route path="comments" element={<Comment />} />
           <Route path="archive" element={<Archive />} />
         </Route>
+        
         <Route path="/adminpage" element={<AdminPage />}>
           <Route path="inputpage" element={<Inputpage />} />
         </Route>

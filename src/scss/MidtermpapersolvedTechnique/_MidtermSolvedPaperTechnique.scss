@@ -1,25 +1,28 @@
 .pastpaper_container {
     display: flex;
+    width: 100%;
     padding: 0 calc((100vw - 1200px) / 2);
 
     .left_side_Container {
-        margin: 0.5rem 0.8rem;
         display: flex;
+        margin: 0.5rem 0.8rem;
         flex-direction: column;
-        width: 100%;
-        flex: 3;
-
+        min-width: 15rem;
+        max-width: 100%;
+        flex:3;
         .left_side {
             padding: 0 1rem;
             border: 1px solid rgba(0, 0, 0, 0.3);
             display: flex;
             flex-direction: column;
             gap: 3rem;
+            width: 100%;
 
             .left_side_header {
                 display: flex;
                 flex-direction: column;
                 padding: 1.5rem 0;
+                width: 100%;
 
                 .text_container {
                     position: relative;
@@ -82,6 +85,8 @@
             }
 
             .left_side_all_subject_section {
+                width: 100%;
+
                 display: flex;
                 flex-direction: column;
                 gap: 1.5rem;
@@ -146,6 +151,8 @@
             }
 
             .left_side_save_and_copy_quiz {
+                width: 100%;
+
                 .black_subject_line_text {
                     display: block;
                     text-align: center;
@@ -215,6 +222,8 @@
             }
 
             .left_side_what_is_cgpa {
+                width: 100%;
+
                 .black_subject_line_text {
                     display: block;
                     text-align: center;
@@ -1793,13 +1802,934 @@
                     }
                 }
             }
-        }
+            .left_side_installation_guide{
+                .black_subject_line_text{
+                    margin-top: 2rem;
+                    display: block;
+                    text-align: center;
+                    padding: 1rem 0;
+                    background: #000;
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 1rem;
+                    border-radius: 0.5rem;
+                    box-shadow: 08px 9px 10px #ff0000;
+                }
+                .guide{
+                    color: #ff0000;
+                    cursor: pointer;
+                    font-size: 1.2rem;
+                    line-height: 2;
+                    &:hover{
+                        color: #0064BB;
+                        text-decoration: underline;
+                    }
+                }
+            }
+            .left_side_dev_installation_steps{
+                .black_subject_line_text{
+                    margin-top: 2rem;
+                    display: block;
+                    text-align: center;
+                    padding: 1rem 0;
+                    background: #000;
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 1rem;
+                    border-radius: 0.5rem;
+                    box-shadow: 08px 9px 10px #ff0000;
+                }
+                .img_container{
+                    width: 20rem;
+                    height: 15rem;
+                    margin: 0 auto;
+                    padding: 0.5rem;
+                    border: 1px solid rgba(0, 0, 0, 0.2);
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
 
+                }
+                .pic_caption{
+                    display: block;
+                    padding: 0.5rem 0;
+                    font-size: 1rem;
+                    text-align: center;
+                }
+                .recommendation{
+                    text-transform: capitalize;
+                    font-size: 1.2rem;
+                    line-height: 2;
+                    span{
+                        color: #ff0000;
+                        cursor: pointer;
+                        &:hover{
+                            color: #0064BB;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+
+            //sublime text
+            .left_side_download_sublime_in_window{
+                .black_subject_line_text{
+                    margin-top: 2rem;
+                    display: block;
+                    text-align: center;
+                    padding: 1rem 0;
+                    background: #000;
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 1rem;
+                    border-radius: 0.5rem;
+                    box-shadow: 08px 9px 10px #ff0000;
+                } 
+                .discription{
+                    padding: 2rem 0;
+                    font-size: 1.2rem;
+                    line-height: 2;
+                    span{
+                        color: #ff0000;
+                        cursor: pointer;
+                        &:hover{
+                            color: #0064BB;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+                .img_container{
+                    width: 20rem;
+                    height: 15rem;
+                    margin: 0 auto;
+                    border: 1px solid rgba(0, 0, 0, 0.2);
+                    padding: 0.5rem;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .pic_caption{
+                    display: block;
+                    text-align: center;
+                    padding: 0.5rem 0;
+                    font-size: 1rem;
+                }
+                .download_btn{
+                    border: none;
+                    outline: none;
+                    color: #fff;
+                    padding: 1rem;
+                    border-radius: 0.5rem;
+                    background: #F76C0F;
+                    font-size: 1.2rem;
+                    font-weight: bolder;
+                }
+            }
+            .left_side_sublime_features{
+                .black_subject_line_text{
+                    margin-top: 2rem;
+                    display: block;
+                    text-align: center;
+                    padding: 1rem 0;
+                    background: #000;
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 1rem;
+                    border-radius: 0.5rem;
+                    box-shadow: 08px 9px 10px #ff0000;
+                } 
+                ul{
+                    padding: 2rem;
+                    li{
+                        line-height: 2;
+                        font-size: 1.5rem;
+    
+                    }
+                }
+                .recommendation{
+                    font-size: 1.2rem;
+                    line-height: 2;
+                    span{
+                        color: #ff0000;
+                        cursor: pointer;
+                        &:hover{
+                            color: #0064BB;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+            .left_side_installation_sublime{
+                .black_subject_line_text{
+                    margin-top: 2rem;
+                    display: block;
+                    text-align: center;
+                    padding: 1rem 0;
+                    background: #000;
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 1rem;
+                    border-radius: 0.5rem;
+                    box-shadow: 08px 9px 10px #ff0000;
+                } 
+                .video{
+                    width: 25rem;
+                    height: 20rem;
+                    margin: 0 auto;
+                
+                    video{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: fill;
+                    }
+                }
+            }
+            .left_side_sublime_installation_guide{
+                .green_subject_line_text {
+                    display: block;
+                    text-align: center;
+                    padding: 1rem 0;
+                    background: #05659A;
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 1rem;
+                    border-radius: 0.5rem;
+                    box-shadow: 08px 9px 10px #9FDB51;
+                }
+                ol{
+                    padding: 2rem 0 2rem 2rem;
+                    li{
+                        font-size: 1.2rem;
+                        line-height: 2;
+                    }  
+                }
+                .recommendation{
+                    font-size: 1.2rem;
+                    text-transform: capitalize;
+                    line-height: 2;
+                    span{
+                        color: #ff0000;
+                        cursor: pointer;
+                        &:hover{
+                            color: #0064BB;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+
+            .left_side_download_and_install_winrar{
+                .black_subject_line_text{
+                    margin-top: 2rem;
+                    display: block;
+                    text-align: center;
+                    padding: 1rem 0;
+                    background: #000;
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 1rem;
+                    border-radius: 0.5rem;
+                    box-shadow: 08px 9px 10px #ff0000;
+                }
+                .discription{
+                    padding: 2rem 0;
+                    font-size: 1.2rem;
+                    line-height: 2;
+                    span{
+                        color: #ff0000;
+                        cursor: pointer;
+                        &:hover{
+                            color: #0064BB;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+                .img_container{
+                    width: 20rem;
+                    height: 15rem;
+                    margin: 0 auto;
+                    padding: 0.5rem;
+                    border: 1px solid rgba(0, 0, 0, 0.2);
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .pic_caption{
+                    display: block;
+                    text-align: center;
+                    font-size: 1rem;
+                    padding: 0.5rem 0;
+                }
+            }
+            .left_side_what_is_winrar{
+                .black_subject_line_text{
+                    margin-top: 2rem;
+                    display: block;
+                    text-align: center;
+                    padding: 1rem 0;
+                    background: #000;
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 1rem;
+                    border-radius: 0.5rem;
+                    box-shadow: 08px 9px 10px #ff0000;
+                }
+                .recommendation{
+                    font-size: 1.2rem;
+                    line-height: 2;
+                    text-transform: capitalize;
+                    span{
+                        color: #ff0000;
+                        cursor: pointer;
+                        &:hover{
+                            color: #0064BB;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+            .left_side_features_of_winrar{
+                .black_subject_line_text{
+                    margin-top: 2rem;
+                    display: block;
+                    text-align: center;
+                    padding: 1rem 0;
+                    background: #000;
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 1rem;
+                    border-radius: 0.5rem;
+                    box-shadow: 08px 9px 10px #ff0000;
+                }
+                ul{
+                    padding: 2rem 0 2rem 2rem;
+                    li{
+                        font-size: 1.2rem;
+                        line-height: 2;
+                    }
+                }
+                .recommendation{
+                    font-size: 1.2rem;
+                    line-height: 2;
+                    text-transform: capitalize;
+                    span{
+                        color: #ff0000;
+                        cursor: pointer;
+                        &:hover{
+                            color: #0064BB;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+            .left_side_winrar_download_install_windows{
+                .black_subject_line_text{
+                    margin-top: 2rem;
+                    display: block;
+                    text-align: center;
+                    padding: 1rem 0;
+                    background: #000;
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 1rem;
+                    border-radius: 0.5rem;
+                    box-shadow: 08px 9px 10px #ff0000;
+                }
+                .recommendation{
+                    font-size: 1.2rem;
+                    line-height: 2;
+                    text-transform: capitalize;
+                    span{
+                        color: #ff0000;
+                        cursor: pointer;
+                        &:hover{
+                            color: #0064BB;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+                .img_container{
+                    width: 25rem;
+                    height: 20rem;
+                    margin: 0 auto;
+                    padding: 0.5rem;
+                    border: 1px solid rgba(0, 0, 0, 0.2);
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .pic_caption{
+                    display: block;
+                    text-align: center;
+                    font-size: 1rem;
+                    padding: 0.5rem;
+                }
+                .green_subject_line_text {
+                    display: block;
+                    text-align: center;
+                    padding: 1rem 0;
+                    background: #05659A;
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 1rem;
+                    border-radius: 0.5rem;
+                    box-shadow: 08px 9px 10px #9FDB51;
+                }
+                .link{
+                    padding: 2rem 0;
+                    color: #ff0000;
+                    cursor: pointer;
+                    &:hover{
+                        color: #0064BB;
+                        text-decoration: underline;
+                    }
+                }
+            }
+
+            //math software
+            .left_side_download_math_software{
+                .black_subject_line_text{
+                    margin-top: 2rem;
+                    display: block;
+                    text-align: center;
+                    padding: 1rem 0;
+                    background: #000;
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 1rem;
+                    border-radius: 0.5rem;
+                    box-shadow: 08px 9px 10px #ff0000;
+                }
+                .discription{
+                    padding: 2rem 0;
+                    font-size: 1.2rem;
+                    line-height: 2;
+                    span{
+                        color: #ff0000;
+                        cursor: pointer;
+                        &:hover{
+                            color: #0064BB;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+                .img_container{
+                    width: 25rem;
+                    height: 20rem;
+                    margin: 0 auto;
+                    padding: 0.5rem;
+                    border: 1px solid rgba(0, 0, 0, 0.2);
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .pic_caption{
+                    display: block;
+                    text-align: center;
+                    font-size: 1rem;
+                    padding: 0.5rem;
+                }
+            }
+            .left_side_why_need_math_software{
+                .green_subject_line_text {
+                    display: block;
+                    text-align: center;
+                    padding: 1rem 0;
+                    background: #05659A;
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 1rem;
+                    border-radius: 0.5rem;
+                    box-shadow: 08px 9px 10px #9FDB51;
+                }
+                .link{
+                    padding: 2rem 0 0 0;
+                    font-size: 1.2rem;
+                    line-height: 2;
+                    span{
+                        color: #ff0000;
+                        cursor: pointer;
+                        &:hover{
+                            color: #0064BB;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+
+            }
+            .left_side_insert_math_feature{
+                .black_subject_line_text{
+                    margin-top: 2rem;
+                    display: block;
+                    text-align: center;
+                    padding: 1rem 0;
+                    background: #000;
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 1rem;
+                    border-radius: 0.5rem;
+                    box-shadow: 08px 9px 10px #ff0000;
+                }
+                ol{
+                    padding: 2rem 0 2rem 2rem;
+                    li{
+                        font-size: 1.2rem;
+                        line-height: 2;
+                        span{
+                            color: #ff0000;
+                            cursor: pointer;
+                            &:hover{
+                                color: #0064BB;
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+            }
+            .left_side_mathtype{
+                .green_subject_line_text {
+                    display: block;
+                    text-align: center;
+                    padding: 1rem 0;
+                    background: #05659A;
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 1rem;
+                    border-radius: 0.5rem;
+                    box-shadow: 08px 9px 10px #9FDB51;
+                }
+                table{
+                    margin: 2rem 0;
+                }
+                table,tr,td{
+                    border: 1px solid black;
+                    border-collapse: collapse;
+                }
+                thead{
+                    tr{
+                        td{
+                            padding: 2rem;
+                            font-size: 1.2rem;
+                            text-align: center;
+                            line-height: 2;
+                        }
+                    }
+                }
+                tbody{
+                    tr{
+                        td{
+                            padding: 2rem 0.5rem;
+                        }
+                    }
+                }
+                .download_btn{
+                    margin: 1rem 0;
+                    border: none;
+                    outline: none;
+                    padding: 1rem;
+                    background: #F76C0F;
+                    color: #fff;
+                    font-size: 1.2rem;
+                    border-radius: 0.3rem;
+                }
+                .recommendation{
+                    font-size: 1.2rem;
+                    line-height: 2;
+                    text-transform: capitalize;
+                    span{
+                        color: #ff0000;
+                        cursor: pointer;
+                        &:hover{
+                            color: #0064BB;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+
+            //java development kit
+            .left_side_java_development_kit_jdk{
+                .black_subject_line_text{
+                    margin-top: 2rem;
+                    display: block;
+                    text-align: center;
+                    padding: 1rem 0;
+                    background: #000;
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 1rem;
+                    border-radius: 0.5rem;
+                    box-shadow: 08px 9px 10px #ff0000;
+                }
+                .discription{
+                    padding: 2rem 0;
+                    font-size: 1.2rem;
+                    line-height: 2;
+                    span{
+                        color: #ff0000;
+                        cursor: pointer;
+                        &:hover{
+                            color: #0064BB;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+                .img_container{
+                    width: 20rem;
+                    height: 15rem;
+                    margin: 0 auto;
+                    padding:0.5rem;
+                    border: 1px solid rgba(0, 0, 0, 0.2);
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .pic_caption{
+                    display: block;
+                    font-size: 1rem;
+                    padding: 0.5rem;
+                    text-align: center;
+                }
+                .recommendation{
+                    font-size: 1.2rem;
+                    line-height: 2;
+                    padding: 1rem 0;
+                    span{
+                        color: #ff0000;
+                        cursor: pointer;
+                        &:hover{
+                            color: #0064BB;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+            .left_side_installation_configuration{
+                .black_subject_line_text{
+                    margin-top: 2rem;
+                    display: block;
+                    text-align: center;
+                    padding: 1rem 0;
+                    background: #000;
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 1rem;
+                    border-radius: 0.5rem;
+                    box-shadow: 08px 9px 10px #ff0000;
+                }
+                .green_subject_line_text {
+                    margin: 1.5rem 0;
+                    display: block;
+                    text-align: center;
+                    padding: 1rem 0;
+                    background: #05659A;
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 1rem;
+                    border-radius: 0.5rem;
+                    box-shadow: 08px 9px 10px #9FDB51;
+                }
+                .note{
+                    padding: 2rem 0;
+                    font-size: 1.2rem;
+                    color: #ff0000;
+                 
+                }
+                .notes{
+                    padding: 2rem 0;
+                    font-size: 1.2rem;
+                    span{
+
+                        color: #ff0000;
+                    }
+                }
+                .download_btn{
+                    padding: 1rem;
+                    font-size: 1.2rem;
+                    border: none;
+                    outline: none;
+                    background: #F76C0F;
+                    color: #fff;
+                    font-weight: bold;
+                }
+                .img_container{
+                    width: 25rem;
+                    height: 20rem;
+                    margin: 2rem auto 0;
+                    padding:0.5rem;
+                    border: 1px solid rgba(0, 0, 0, 0.2);
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .pic_caption{
+                    display: block;
+                    font-size: 1rem;
+                    padding: 0.5rem;
+                    text-align: center;
+                }
+            }
+            .left_side_how_write_javacode{
+                .black_subject_line_text{
+                    margin-top: 2rem;
+                    display: block;
+                    text-align: center;
+                    padding: 1rem 0;
+                    background: #000;
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 1rem;
+                    border-radius: 0.5rem;
+                    box-shadow: 08px 9px 10px #ff0000;
+                }
+                ul{
+                    padding: 2rem 0 2rem 2rem;
+                    li{
+                        font-size: 1.2rem;
+                        line-height: 2;
+                    }
+                }
+                .please_notes{
+                    font-size: 1.2rem;
+                    line-height: 2;
+                    span{
+                        font-weight: bold;
+                        color: #ff0000;
+                    }
+                }
+            }
+
+            //VisualStudio Page
+            .left_side_installation_visualstudio{
+                .black_subject_line_text{
+                    margin-top: 2rem;
+                    display: block;
+                    text-align: center;
+                    padding: 1rem 0;
+                    background: #000;
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 1rem;
+                    border-radius: 0.5rem;
+                    box-shadow: 08px 9px 10px #ff0000;
+                }
+                .discription{
+                    padding: 2rem 0 0 0;
+                    font-size: 1.2rem;
+                    line-height: 2;
+                    span{
+                        color: #ff0000;
+                        cursor: pointer;
+                        &:hover{
+                            color: #0064BB;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+                .video{
+                    width: 25rem;
+                    height: 20rem;
+                    margin: 0 auto;
+                    padding: 0.5rem;
+                    border: 1px solid black;
+                    object-fit: fill;
+                    video{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .pic_caption{
+                    display: block;
+                    text-align: center;
+                    font-size: 1.2rem;
+                    padding: 0.5rem;
+                }
+                
+            }
+            .left_side_visualstudio_features{
+                .black_subject_line_text{
+                    margin-top: 2rem;
+                    display: block;
+                    text-align: center;
+                    padding: 1rem 0;
+                    background: #000;
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 1rem;
+                    border-radius: 0.5rem;
+                    box-shadow: 08px 9px 10px #ff0000;
+                }
+                ol{
+                    padding: 2rem 0 2rem 2rem;
+                    li{
+                        font-size: 1.2rem;
+                        line-height: 2;
+                    }
+                }
+                .green_subject_line_text {
+                    display: block;
+                    text-align: center;
+                    padding: 1rem 0;
+                    background: #05659A;
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 1rem;
+                    border-radius: 0.5rem;
+                    box-shadow: 08px 9px 10px #9FDB51;
+                }
+                .recommended{
+                    font-size: 1.2rem;
+                    line-height: 2;
+                    span{
+                        color: #ff0000;
+                        cursor: pointer;
+                        &:hover{
+                            color: #0064BB;
+                            text-decoration: underline;
+                        }
+                    }
+                    
+                }
+            }
+            .left_side_visual_installation_guide{
+                .black_subject_line_text{
+                    margin-top: 2rem;
+                    display: block;
+                    text-align: center;
+                    padding: 1rem 0;
+                    background: #000;
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 1rem;
+                    border-radius: 0.5rem;
+                    box-shadow: 08px 9px 10px #ff0000;
+                } 
+                .link{
+                    font-size: 1.2rem;
+                    padding: 2rem 0 0 0;
+                    line-height: 2;
+                    color: #ff0000;
+                    cursor: pointer;
+                    &:hover{
+                        color: #0064BB;
+                        text-decoration: underline;
+                    }
+                }
+                ul,ol{
+                    padding: 2rem 0 2rem 2rem;
+                    li{
+                        font-size: 1.2rem;
+                        line-height: 2;
+                    }
+                }
+                .img_container{
+                    width: 25rem;
+                    height: 20rem;
+                    margin: 0 auto;
+                    padding: 0.5rem;
+                    border: 1px solid rgba(0, 0, 0, 0.2);
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .recommended{
+                    font-size: 1.2rem;
+                    line-height: 2;
+                    span{
+                        color: #ff0000;
+                        cursor: pointer;
+                        &:hover{
+                            color: #0064BB;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+            .left_side_frequently_ask_question{
+                .black_subject_line_text{
+                    margin-top: 2rem;
+                    display: block;
+                    text-align: center;
+                    padding: 1rem 0;
+                    background: #000;
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 1rem;
+                    border-radius: 0.5rem;
+                    box-shadow: 08px 9px 10px #ff0000;
+                }
+                .green_subject_line_text {
+                    display: block;
+                    text-align: center;
+                    margin: 2rem 0 0 0;
+                    padding: 1rem 0;
+                    background: #05659A;
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 1rem;
+                    border-radius: 0.5rem;
+                    box-shadow: 08px 9px 10px #9FDB51;
+                }
+                ol{
+                    padding: 2rem 0 2rem 2rem;
+                    li{
+                        font-size: 1.2rem;
+                        line-height: 2;
+                    }
+                }
+                .recommeded{
+                    font-size: 1.2rem;
+                    line-height: 2;
+                    span{
+                        color: #ff0000;
+                        cursor: pointer;
+                        &:hover{
+                            color: #0064BB;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
         .left_side_social_side {
             padding: 2rem 1em;
             border: 1px solid rgba(0, 0, 0, 0.3);
             display: flex;
             gap: 2rem;
+            width: 100%;
 
             span {
                 font-size: 1.2rem;
@@ -1918,6 +2848,7 @@
         }
 
         .slider {
+            width: 100%;
             margin: 1rem 0;
 
             .slider_topic {
@@ -1948,7 +2879,18 @@
                 padding: 1rem;
                 border: 1px solid rgba(0, 0, 0, 0.3);
                 width: 100%;
+                .slider_img{
+                    width: 10rem;
+                    height: 10rem;
+                    border: 1px solid black;
+                    padding: 0.5rem;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
             }
+
         }
 
         .unknown_sec {
@@ -2169,7 +3111,213 @@
 @media screen and (max-width:980px) {
     .pastpaper_container {
         display: flex;
+        width: 100%;
         flex-direction: column;
+        .left_side_Container{
+            width: 100%;
+            margin:0;
+            .left_side {
+    
+             
+    
+                .left_side_all_subject_section {
+                   
+    
+             
+    
+          
+    
+              
+    
+                    .img_container {
+                        margin: 0 auto;
+                        width: 20rem;
+                        border: 1px solid #000;
+                        padding: 0.5rem;
+    
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            cursor: pointer;
+                        }
+                    }
+                  
+                       
+    
+                
+                }
+    
+                .left_side_save_and_copy_quiz {
+                  
+    
+                   
+    
+                    
+    
+                    .img_container {
+                        width: 15rem;
+                        height: 10rem;
+                        margin: 0 auto;
+                        padding: 0.5rem;
+                        border: 1px solid rgba(0, 0, 0, 0.2);
+    
+                        img {
+                            width: 100%;
+                            height: 100%
+                        }
+                    }
+    
+                 
+    
+                 
+                }
+    
+                .left_side_what_is_cgpa {
+               
+    
+                    
+    
+                    .img_container {
+                        width: 15rem;
+                        height: 10rem;
+                        margin: 0 auto;
+                        border: 1px solid rgba(0, 0, 0, 0.2);
+                        padding: 0.5rem;
+    
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+    
+                
+    
+                   
+                }
+    
+    
+        
+    
+                .left_side_improve_marks {
+                    .img_container {
+                        width: 15rem;
+                        height: 10rem;
+                        margin: 0 auto;
+                        padding: 0.5rem;
+                        border: 1px solid rgba(0, 0, 0, 0.2);
+    
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+    
+              
+                }
+    
+    
+                .left_side_save_and_copy_quiz_pattrem {
+          
+    
+                   
+    
+                    .img_container {
+                        width: 15rem;
+                        height: 10rem;
+                        margin: 0 auto;
+                        padding: 0.5rem;
+                        border: 1px solid rgba(0, 0, 0, 0.2);
+    
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+    
+            
+                }
+
+    
+        
+    
+                .left_side_use_exam_software {
+               
+    
+                    .img_container {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 15rem;
+                        height: 10rem;
+                        border: 1px solid rgba(0, 0, 0, 0.2);
+                        margin: 0 auto;
+                        padding: 0.5rem;
+    
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+    
+                 
+                   
+                }
+    
+               
+    
+                .left_side_avoid_getting_zero_marks {
+    
+                    .img_container {
+                        width: 15rem;
+                        height: 10rem;
+                        margin: 0 auto;
+                        padding: 0.2rem;
+                        border: 1px solid rgba(0, 0, 0, 0.2);
+    
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+    
+                  
+                }
+    
+                //installation and guidelines
+                .left_side_installation_and_guidelines {
+    
+                    .img_container{
+                        width: 15rem;
+                        height: 10rem;
+                        margin: 0 auto;
+                        border: 1px solid rgba(0, 0, 0, 0.2);
+                        padding: 0.5rem;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+    
+                }
+           
+                .left_side_dev_installation_steps{
+                    .img_container{
+                        width: 15rem;
+                        height: 10rem;
+                        margin: 0 auto;
+                        padding: 0.5rem;
+                        border: 1px solid rgba(0, 0, 0, 0.2);
+                        img{
+                            width: 100%;
+                            height: 100%;
+                        }
+    
+                    }
+                    
+            
+                }
+            }
+        }
 
         .right_side {
             flex: 0.5;
@@ -2191,7 +3339,211 @@
 }
 
 @media screen and (max-width:400px) {
+ 
     .pastpaper_container {
+        .left_side_Container{
+
+            .left_side {
+    
+             
+    
+                .left_side_all_subject_section {
+                   
+    
+             
+    
+          
+    
+              
+    
+                    .img_container {
+                        margin: 0 auto;
+                        width: 15rem;
+                        border: 1px solid #000;
+                        padding: 0.5rem;
+    
+                        img {
+                            width: 100%;
+                            cursor: pointer;
+                        }
+                    }
+                  
+                       
+    
+                
+                }
+    
+                .left_side_save_and_copy_quiz {
+                  
+    
+                   
+    
+                    
+    
+                    .img_container {
+                        width: 10rem;
+                        height: 10rem;
+                        margin: 0 auto;
+                        padding: 0.5rem;
+                        border: 1px solid rgba(0, 0, 0, 0.2);
+    
+                        img {
+                            width: 100%;
+                            height: 100%
+                        }
+                    }
+    
+                 
+    
+                 
+                }
+    
+                .left_side_what_is_cgpa {
+               
+    
+                    
+    
+                    .img_container {
+                        width: 10rem;
+                        height: 10rem;
+                        margin: 0 auto;
+                        border: 1px solid rgba(0, 0, 0, 0.2);
+                        padding: 0.5rem;
+    
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+    
+                
+    
+                   
+                }
+    
+    
+        
+    
+                .left_side_improve_marks {
+                    .img_container {
+                        width: 10rem;
+                        height: 10rem;
+                        margin: 0 auto;
+                        padding: 0.5rem;
+                        border: 1px solid rgba(0, 0, 0, 0.2);
+    
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+    
+              
+                }
+    
+    
+                .left_side_save_and_copy_quiz_pattrem {
+          
+    
+                   
+    
+                    .img_container {
+                        width: 10rem;
+                        height: 10rem;
+                        margin: 0 auto;
+                        padding: 0.5rem;
+                        border: 1px solid rgba(0, 0, 0, 0.2);
+    
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+    
+            
+                }
+
+    
+        
+    
+                .left_side_use_exam_software {
+               
+    
+                    .img_container {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 10rem;
+                        height: 10rem;
+                        border: 1px solid rgba(0, 0, 0, 0.2);
+                        margin: 0 auto;
+                        padding: 0.5rem;
+    
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+    
+                 
+                   
+                }
+    
+               
+    
+                .left_side_avoid_getting_zero_marks {
+    
+                    .img_container {
+                        width: 10rem;
+                        height: 10rem;
+                        margin: 0 auto;
+                        padding: 0.2rem;
+                        border: 1px solid rgba(0, 0, 0, 0.2);
+    
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+    
+                  
+                }
+    
+                //installation and guidelines
+                .left_side_installation_and_guidelines {
+    
+                    .img_container{
+                        width: 10rem;
+                        height: 10rem;
+                        margin: 0 auto;
+                        border: 1px solid rgba(0, 0, 0, 0.2);
+                        padding: 0.5rem;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+    
+                }
+           
+                .left_side_dev_installation_steps{
+                    .img_container{
+                        width: 10rem;
+                        height: 10rem;
+                        margin: 0 auto;
+                        padding: 0.5rem;
+                        border: 1px solid rgba(0, 0, 0, 0.2);
+                        img{
+                            width: 100%;
+                            height: 100%;
+                        }
+    
+                    }
+                    
+            
+                }
+            }
+        }
         .right_side {
             flex: 1;
             width: 100%;

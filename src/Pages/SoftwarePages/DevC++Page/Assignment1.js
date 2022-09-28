@@ -1,6 +1,14 @@
 import React from "react";
 import SliderComp from "./ReactSlider";
 import cgpaImage from "../../../Images/DevC++.png"
+import step1 from "../../../Images/step1.png";
+import step2 from "../../../Images/step2.png";
+import step3 from "../../../Images/step3.png";
+import step4 from "../../../Images/step4.png";
+import step5 from "../../../Images/step5.png";
+import step6 from "../../../Images/step6.png";
+import step7 from "../../../Images/step7.png";
+import step8 from "../../../Images/step8.png";
 // import Slider from "react-slick";
 // import "slick-carousel/slick/slick.css";
 // import "slick-carousel/slick/slick-theme.css";
@@ -98,6 +106,91 @@ const AssignmentComponent = ({ picture }) => {
 
               <SubjectLine title={`Download Link For DevC++ 5.9`} className={`green_subject_line_text`}/>
               <p className="set_up">devcpp-5.9 setup.rar</p>
+            </div>
+            <div className="left_side_installation_guide">
+              <SubjectLine title={`DEV C++ installation guide`} className={`black_subject_line_text`}/>
+              <p style={{padding:"2rem 0 0 0",lineHeight:"2",fontSize:"1.2rem"}}>After Downloading DevC++ setup, you should follow the instructions/guidelines provided in the following documents:</p>
+              <br/>
+              <p className="guide">Devcpp installation guide</p>
+            </div>
+            <div className="left_side_dev_installation_steps">
+                <SubjectLine title={`DevC++ installation step 1:`} className={`black_subject_line_text`}/>
+                <p style={{padding:"2rem 0 0 0",lineHeight:"2",fontSize:"1.2rem"}}>Double click on the file devcpp_setup.exe  and Click on “Run” button.</p>
+                <div className="img_container">
+                  <img src={step1} alt="step1"/>
+                </div>
+                <span className="pic_caption">DevC++ installation guide step 1</span>
+
+
+                <SubjectLine title={`DevC++ installation step 2:`} className={`black_subject_line_text`}/>
+                <p style={{padding:"2rem 0 0 0",lineHeight:"2",fontSize:"1.2rem"}}>Click on "Ok" button</p>
+                <div className="img_container">
+                  <img src={step2} alt="step2"/>
+                </div>
+                <span className="pic_caption">DevC++ installation guide step 2</span>
+
+                <SubjectLine title={`DevC++ installation step 3:`} className={`black_subject_line_text`}/>
+                <p style={{padding:"2rem 0 0 0",lineHeight:"2",fontSize:"1.2rem"}}>Click on "Ok" button</p>
+                <div className="img_container">
+                  <img src={step3} alt="step3"/>
+                </div>
+                <span className="pic_caption">DevC++ installation guide step 3</span>
+
+
+                <SubjectLine title={`DevC++ installation step 4:`} className={`black_subject_line_text`}/>
+                <p style={{padding:"2rem 0 0 0",lineHeight:"2",fontSize:"1.2rem"}}>Click on "I Agree" button</p>
+                <div className="img_container">
+                  <img src={step4} alt="step4"/>
+                </div>
+                <span className="pic_caption">DevC++ installation guide step 4</span>
+
+
+                <SubjectLine title={`DevC++ installation step 5:`} className={`black_subject_line_text`}/>
+                <p style={{padding:"2rem 0 0 0",lineHeight:"2",fontSize:"1.2rem"}}>Click on "Next" button</p>
+                <div className="img_container">
+                  <img src={step5} alt="step5"/>
+                </div>
+                <span className="pic_caption">DevC++ installation guide step 5</span>
+
+
+                <SubjectLine title={`DevC++ installation step 6:`} className={`black_subject_line_text`}/>
+                <p style={{padding:"2rem 0 0 0",lineHeight:"2",fontSize:"1.2rem"}}>Click on "install" button</p>
+                <div className="img_container">
+                  <img src={step6} alt="step6"/>
+                </div>
+                <span className="pic_caption">DevC++ installation guide step 6</span>
+
+
+                <SubjectLine title={`DevC++ installation step 7:`} className={`black_subject_line_text`}/>
+                <p style={{padding:"2rem 0 0 0",lineHeight:"2",fontSize:"1.2rem"}}>Wait untill the green bar Complete</p>
+                <div className="img_container">
+                  <img src={step7} alt="step7"/>
+                </div>
+                <span className="pic_caption">DevC++ installation guide step 7</span>
+
+
+                <SubjectLine title={`DevC++ installation step 8:`} className={`black_subject_line_text`}/>
+                <p style={{padding:"2rem 0 0 0",lineHeight:"2",fontSize:"1.2rem"}}>Click on "Finish" button</p>
+                <div className="img_container">
+                  <img src={step8} alt="step4"/>
+                </div>
+                <span className="pic_caption">DevC++ installation guide step 8</span>
+                <br/>
+                <p style={{padding:"2rem 0 0 0",lineHeight:"2",fontSize:"1.2rem"}}>You are Done ! Your Dev C++ 4.9.9.2 has been installed successfully. Now start writing compiling and running programs and enjoy programming.</p>
+                <br/>
+                <p className="recommendation"><b>Recommended : </b><span>How to fix DevC++ In Windows 8 G++.exe Error</span></p>
+
+
+                <p style={{padding:"2rem 0 0 0",lineHeight:"2",fontSize:"1.2rem"}}><b>Please note :</b> The installation procedure of all the DevC++ versions is almost the same as provided in the document “DevCpp installation guide”.</p> 
+                <br/>
+                <p style={{padding:"2rem 0 0 0",lineHeight:"2",fontSize:"1.2rem"}}>All the necessary guidelines for setting up and using DevC++ are available in the above mentioned documents.</p>
+
+                <p style={{padding:"2rem 0 0 0",lineHeight:"2",fontSize:"1.2rem"}}>If you still face any issue related to DevC++, you are most welcome to discuss it on MDB or through the email. at cs201@vu.edu.pk.</p>
+
+                <p className="recommendation"><b>Recommended : </b><span>C++ programming Tutorial</span></p>
+
+                <p style={{padding:"2rem 0 0 0",lineHeight:"2",fontSize:"1.2rem"}}>If You Liked this Tutorial of Dev c++ Installation and usage guide. Share it with your fellow students. Like us on facebook and Subscribe us below.</p>
+                <p style={{lineHeight:"2",fontSize:"1.2rem"}}>Thank your</p>
             </div>
           </div>
           <div className="left_side_social_side">

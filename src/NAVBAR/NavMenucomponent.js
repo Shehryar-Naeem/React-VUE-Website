@@ -85,11 +85,11 @@ const NavMenuComponent = () => {
               </span>
               <ul>
                 <li><Link to="/howtoinstalldevc++">DEV C++</Link></li>
-                <li>Sublime Text 3</li>
-                <li>Winrar</li>
-                <li>Math Type</li>
-                <li>JAVA Development kit</li>
-                <li>Microsoft Visual Studio</li>
+                <li><Link to="/howtoinstallsublimetextide">Sublime Text 3</Link></li>
+                <li><Link to="/howtoinstallwinrar">Winrar</Link></li>
+                <li><Link to="/howtodownloadmathsoftware">Math Type</Link></li>
+                <li><Link to="/javadevelopementkit">JAVA Development kit</Link></li>
+                <li><Link to="/howtoinstallandusevisualstudiocode">Microsoft Visual Studio</Link></li>
               </ul>
             </li>
             <li>
