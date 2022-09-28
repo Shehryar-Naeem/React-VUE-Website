@@ -33,6 +33,13 @@ import HowtoInstallWinRAR from "./Pages/SoftwarePages/WinRar";
 import HowtoDownloadMathSoftware from "./Pages/SoftwarePages/MathSoftware";
 import JavaDevelopmentKit from "./Pages/SoftwarePages/JavaDevelopmentkit";
 import VisualStudioProcedurePage from "./Pages/SoftwarePages/VisualStudio";
+import ProgrammingLanguageCPlusPlus from "./Pages/OtherPages/C++ProgrammingPage";
+import Scholarships from "./Pages/OtherPages/ScholarShipPage";
+import LaptopScheme from "./Pages/OtherPages/LatopScheme";
+import MeritList from "./Pages/OtherPages/MeritListPage";
+import NTS from "./Pages/OtherPages/NTS";
+import Pricebondpage from "./Pages/OtherPages/PiceBondpage";
+import HowtoApplyforMigration from "./Pages/HOwToPage/ApplyforMigration";
 const getYear = new Date().getFullYear();
 
 const App = () => {
@@ -175,6 +182,11 @@ const App = () => {
           <Route path="comments" element={<Comment />} />
           <Route path="archive" element={<Archive />} />
         </Route>
+        <Route path="/howtoapplyformigrationandtransfer" element={<HowtoApplyforMigration/>}>
+        <Route path="" element={<TrendingSection getYear={getYear} />} />
+          <Route path="comments" element={<Comment />} />
+          <Route path="archive" element={<Archive />} />
+        </Route>
 
         {/* how to install software */}
         <Route path="/howtoinstalldevc++" element={<HowtoinstallDEV />}>
@@ -219,6 +231,47 @@ const App = () => {
           <Route path="archive" element={<Archive />} />
         </Route>
         
+
+        {/*Other page routes*/ }
+
+        <Route path="/c++programming" element={<ProgrammingLanguageCPlusPlus/>}>
+        <Route path="" element={<TrendingSection getYear={getYear} />} />
+          <Route path="comments" element={<Comment />} />
+          <Route path="archive" element={<Archive />} />
+        </Route>
+
+        <Route path="/sholarshipsPage" element={<Scholarships/>}>
+        <Route path="" element={<TrendingSection getYear={getYear} />} />
+          <Route path="comments" element={<Comment />} />
+          <Route path="archive" element={<Archive />} />
+        </Route>
+
+
+        <Route path="/laptopScheme" element={<LaptopScheme/>}>
+        <Route path="" element={<TrendingSection getYear={getYear} />} />
+          <Route path="comments" element={<Comment />} />
+          <Route path="archive" element={<Archive />} />
+        </Route>
+        <Route path="/meritlist" element={<MeritList/>}>
+        <Route path="" element={<TrendingSection getYear={getYear} />} />
+          <Route path="comments" element={<Comment />} />
+          <Route path="archive" element={<Archive />} />
+        </Route>
+
+        <Route path="/ntspage" element={<NTS/>}>
+        <Route path="" element={<TrendingSection getYear={getYear} />} />
+          <Route path="comments" element={<Comment />} />
+          <Route path="archive" element={<Archive />} />
+        </Route>
+
+
+        <Route path="/pricebondpage" element={<Pricebondpage/>}>
+        <Route path="" element={<TrendingSection getYear={getYear} />} />
+          <Route path="comments" element={<Comment />} />
+          <Route path="archive" element={<Archive />} />
+        </Route>
+
+
         <Route path="/adminpage" element={<AdminPage />}>
           <Route path="inputpage" element={<Inputpage />} />
         </Route>

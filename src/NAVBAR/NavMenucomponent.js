@@ -73,8 +73,7 @@ const NavMenuComponent = () => {
                 <li><Link to="/howtoimprovegrade">How to improve Grades</Link></li>
                 <li>How to Do Course Selection</li>
                 <li>How to Change study Program</li>
-                <li>How to Change study Program</li>
-                <li>How to Apply for Migration/Transfer</li>
+                <li><Link to="/howtoapplyformigrationandtransfer">How to Apply for Migration/Transfer</Link></li>
                 <li>How to Exam Money Online</li>
               </ul>
             </li>
@@ -99,12 +98,12 @@ const NavMenuComponent = () => {
               </span>
               <ul>
                 <li>Fashion and life Style</li>
-                <li>C++ Programming</li>
-                <li>Scholarships</li>
-                <li>PM Laptop Scheme</li>
-                <li>Merit List</li>
-                <li>NTS</li>
-                <li>Prize Bond</li>
+                <li><Link to="/c++programming">C++ Programming</Link></li>
+                <li><Link to="/sholarshipsPage">Scholarships</Link></li>
+                <li><Link to="/laptopScheme">PM Laptop Scheme</Link></li>
+                <li><Link to="/meritlist">Merit List</Link></li>
+                <li><Link to="/ntspage">NTS</Link></li>
+                <li><Link to="/pricebondpage">Prize Bond</Link></li>
               </ul>
             </li>
           </ul>
