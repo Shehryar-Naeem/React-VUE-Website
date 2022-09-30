@@ -1695,6 +1695,598 @@
                 }
             }
 
+            //ChangeStudyProgram
+
+            .left_side_change_studyProgram{
+                .black_subject_line_text {
+                    margin-top: 2rem;
+                    display: block;
+                    text-align: center;
+                    padding: 1rem 0;
+                    background: #000;
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 1rem;
+                    border-radius: 0.5rem;
+                    box-shadow: 08px 9px 10px #ff0000;
+                }
+                .img_container{
+                    width: 20rem;
+                    height: 15rem;
+                    margin: 0 auto;
+                    padding: 0.5rem;
+                    border: 0.1rem solid rgba(0, 0, 0, 0.2);
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .pic_caption{
+                    display: block;
+                    text-align: center;
+                    padding: 0.5rem 0;
+                    font-size: 1rem;
+                }
+                .recommended{
+                    padding: 1rem 0;
+                    font-size: 1.2rem;
+                    line-height: 2;
+                    span{
+                        color: #ff0000;
+                        cursor: pointer;
+                        &:hover{
+                            color: #0064BB;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+            .left_side_instruction_changing_program{
+                .black_subject_line_text {
+                    margin-top: 2rem;
+                    display: block;
+                    text-align: center;
+                    padding: 1rem 0;
+                    background: #000;
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 1rem;
+                    border-radius: 0.5rem;
+                    box-shadow: 08px 9px 10px #ff0000;
+                }
+                .green_subject_line_text {
+                    display: block;
+                    text-align: center;
+                    padding: 1rem 0;
+                    background: #05659A;
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 1rem;
+                    border-radius: 0.5rem;
+                    box-shadow: 08px 9px 10px #9FDB51;
+                }
+                .discription_link{
+                    font-size: 1.2rem;
+                    padding: 2rem 0;
+                    line-height: 2;
+                    span{
+                        color: #ff0000;
+                        cursor: pointer;
+                        &:hover{
+                            color: #0064BB;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+                .img_container{
+                    width: 30rem;
+                    height: 20rem;
+                    margin: 0 auto;
+                    padding: 0.5rem;
+                    border: 0.1rem solid rgba(0, 0, 0, 0.2);
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .pic_caption{
+                    display: block;
+                    text-align: center;
+                    font-size: 1rem;
+                    padding: 0.5rem 0;
+                }
+                .recommended{
+                    padding: 2rem 0;
+                    font-size: 1.2rem;
+                    line-height: 2;
+                    span{
+                        color: #ff0000;
+                        cursor: pointer;
+                        &:hover{
+                            color: #0064BB;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+
+            //OUrAim
+
+            .left_side_our_aims{
+                .black_subject_line_text {
+                    margin-top: 2rem;
+                    display: block;
+                    text-align: center;
+                    padding: 1rem 0;
+                    background: #000;
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 1rem;
+                    border-radius: 0.5rem;
+                    box-shadow: 08px 9px 10px #ff0000;
+                }
+                .img_container{
+                    width: 20rem;
+                    height: 15rem;
+                    margin: 0 auto;
+                    padding: 0.5rem;
+                    border: 0.1rem solid rgba(0, 0, 0, 0.2);
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .pic_caption{
+                    display: block;
+                    text-align: center;
+                    padding: 0.5rem 0;
+                    font-size: 1rem;
+                }
+                .link{
+                    font-size: 1.2rem;
+                    line-height: 2;
+                    color: #ff0000;
+                    cursor: pointer;
+                    &:hover{
+                        color: #0064BB;
+                        text-decoration: underline;
+                    }
+                }
+            }
+
+            //Privacy Policy
+            .left_side_privacy_policy{
+                .form_inputs{
+                    padding: 2rem 0;
+                    
+                    .input_label{
+                        i{
+                            font-size: 1.2rem;
+                        }
+                        span{
+                            padding-left: 0.5rem;
+                            font-size: 1.2rem;
+                        }
+                    }
+                    input{
+                        margin-top: 0.5rem;
+                        width: 15rem;
+                        height: 2rem;
+                        padding: 1rem 0.5rem;
+                        border: 0.1rem solid rgba(0, 0, 0, 0.2);
+                    }
+                    textarea{
+                        margin-top: 0.5rem;
+                        width: 15rem;
+                        height: 5rem;
+                        padding: 1rem 0.5rem;
+                        border: 0.1rem solid rgba(0, 0, 0, 0.2);
+                    }
+                }
+                button{
+                    padding: 0.5rem;
+                }
+                .discritpion{
+                    font-size: 1.2rem;
+                    line-height: 2;
+                    padding: 2rem 0;
+                    span{
+                        color: #ff0000;
+                        cursor: pointer;
+                        &:hover{
+                            color: #0064BB;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+                .discritpion1{
+                    font-size: 1.2rem;
+                    line-height: 2;
+                    // padding: 2rem 0;
+                    span{
+                        color: #ff0000;
+                        cursor: pointer;
+                        &:hover{
+                            color: #0064BB;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+                
+            }
+
+            //Migration
+            .left_side_migration_transfer{
+                .black_subject_line_text {
+                    margin-top: 2rem;
+                    display: block;
+                    text-align: center;
+                    padding: 1rem 0;
+                    background: #000;
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 1rem;
+                    border-radius: 0.5rem;
+                    box-shadow: 08px 9px 10px #ff0000;
+                }
+                .discription{
+                    padding: 2rem 0;
+                    font-size: 1.2rem;
+                    line-height: 2;
+                    span{
+                        color: #ff0000;
+                        cursor: pointer;
+                        &:hover{
+                            color: #0064BB;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+                .img_container{
+                    width: 20rem;
+                    height: 15rem;
+                    margin: 0 auto;
+                    padding: 0.5rem;
+                    border: 0.1rem solid rgba(0, 0, 0, 0.2);
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .pic_caption{
+                    display:block;
+                    text-align:center;
+                    font-size:1rem;
+                    padding: 0.5rem 0;
+                }
+                ol{
+                    padding: 2rem 0 2rem 2rem;
+                    li{
+                        font-size: 1.2rem;
+                        line-height: 2;
+                    }
+                }
+            }
+            .left_side_requirement_for_migration{
+                .green_subject_line_text {
+                    margin-top: 2rem;
+                    display: block;
+                    text-align: center;
+                    padding: 1rem 0;
+                    background: #05659A;
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 1rem;
+                    border-radius: 0.5rem;
+                    box-shadow: 08px 9px 10px #9FDB51;
+                }
+                .link{
+                    padding: 2rem 0;
+                    color: #ff0000;
+                    font-size: 1.2rem;
+                    line-height: 2;
+                    &:hover{
+                        color: #0064BB;
+                        text-decoration: underline;
+                    }
+                }
+                ul{
+                    padding: 2rem 0 2rem 2rem;
+                    li{
+                        font-size: 1.2rem;
+                        line-height: 2;
+                    }
+                }
+                .read_note{
+                    font-size: 1.2rem;
+                    line-height: 2;
+                    span{
+                        color: #ff0000;
+                        cursor: pointer;
+                        &:hover{
+                            color: #0064BB;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+            .left_side_transfer_credit_Hours{
+                .black_subject_line_text {
+                    margin-top: 2rem;
+                    display: block;
+                    text-align: center;
+                    padding: 1rem 0;
+                    background: #000;
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 1rem;
+                    border-radius: 0.5rem;
+                    box-shadow: 08px 9px 10px #ff0000;
+                }
+                ol,ul{
+                    padding: 2rem 0 2rem 2rem;
+                    li{
+                        font-size: 1.2rem;
+                        line-height: 2;
+                    }
+                }
+            }
+            .left_side_Graduate_table{
+                .green_subject_line_text {
+                    display: block;
+                    text-align: center;
+                    padding: 1rem 0;
+                    background: #05659A;
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 1rem;
+                    border-radius: 0.5rem;
+                    box-shadow: 08px 9px 10px #9FDB51;
+                }
+                table{
+                    margin: 2rem 0;
+                }
+                table,td{
+                    border: 0.1rem solid black;
+                    border-collapse: collapse;
+                }
+                td{ 
+                    font-size: 1.2rem;
+                    padding: 1rem 0.5rem;
+                    text-transform: capitalize;
+                }
+                ol{
+                    padding: 2rem 0 2rem 2rem;
+                    li{
+                        font-size: 1.2rem;
+                        line-height: 2;
+                    }
+                }
+                .read_note{
+                    font-size: 1.2rem;
+                    line-height: 2;
+                    span{
+                        color: #ff0000;
+                        cursor: pointer;
+                        &:hover{
+                            color: #0064BB;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+
+            // Eearn Money
+            .left_side_earn_money_online{
+                .black_subject_line_text{
+                    margin-top: 2rem;
+                    display: block;
+                    text-align: center;
+                    padding: 1rem 0;
+                    background: #000;
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 1rem;
+                    border-radius: 0.5rem;
+                    box-shadow: 08px 9px 10px #ff0000;
+                }
+                .discription{
+                    padding: 2rem 0;
+                    font-size: 1.2rem;
+                    line-height: 2;
+                    span{
+                        color: #ff0000;
+                        cursor: pointer;
+                        &:hover{
+                            color: #0064BB;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+                .img_container{
+                    width: 20rem;
+                    height: 15rem;
+                    margin: 0 auto;
+                    padding: 0.5rem;
+                    border: 0.1rem solid rgba(0, 0, 0, 0.2);
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .pic_caption{
+                    display: block;
+                    text-align: center;
+                    padding: 0.5rem;
+                    font-size: 1rem;
+                }
+            }
+            
+            .left_side_frequently_question{
+                .green_subject_line_text {
+                    margin-top: 2rem;
+                    display: block;
+                    text-align: center;
+                    padding: 1rem 0;
+                    background: #05659A;
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 1rem;
+                    border-radius: 0.5rem;
+                    box-shadow: 08px 9px 10px #9FDB51;
+                }
+                .img_container{
+                    width: 20rem;
+                    height: 15rem;
+                    margin: 0 auto;
+                    padding: 0.5rem;
+                    border: 0.1rem solid rgba(0, 0, 0, 0.2);
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .pic_caption{
+                    display:block;
+                    text-align:center;
+                    font-size:1rem;
+                    padding: 0.5rem 0;
+                }
+                ul{
+                    padding: 2rem 0 2rem 2rem;
+                    li{
+                        font-size: 1.2rem;
+                        line-height: 2;
+                    }
+                }
+            }
+            .left_side_find_scam_sites{
+                .green_subject_line_text {
+                    margin-top: 2rem;
+                    display: block;
+                    text-align: center;
+                    padding: 1rem 0;
+                    background: #05659A;
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 1rem;
+                    border-radius: 0.5rem;
+                    box-shadow: 08px 9px 10px #9FDB51;
+                }
+                ul{
+                    padding: 2rem 0 0 2rem;
+                    li{
+                        font-size: 1.2rem;
+                        line-height: 2;
+                    }
+                } 
+                .download_btn{
+                    outline: none;
+                    border:none;
+                    font-size: 1.2rem;
+                    padding: 1rem;
+                    margin-left: 0.5rem;
+                    background: #F76C0F;
+                    color: #fff;
+                    border-radius: 0.5rem;
+                    cursor: pointer;
+                }
+            }
+            .left_side_should_known_to_learn{
+                .black_subject_line_text{
+                    margin-top: 2rem;
+                    display: block;
+                    text-align: center;
+                    padding: 1rem 0;
+                    background: #000;
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 1rem;
+                    border-radius: 0.5rem;
+                    box-shadow: 08px 9px 10px #ff0000;
+                }
+                .green_subject_line_text {
+                    margin-top: 2rem;
+                    display: block;
+                    text-align: center;
+                    padding: 1rem 0;
+                    background: #05659A;
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 1rem;
+                    border-radius: 0.5rem;
+                    box-shadow: 08px 9px 10px #9FDB51;
+                }
+                .img_container{
+                    width: 20rem;
+                    height: 15rem;
+                    margin: 0 auto;
+                    border: 1px solid rgba(0, 0, 0, 0.2);
+                    padding: 0.5rem;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .pic_caption{
+                    display: block;
+                    text-align: center;
+                    font-size: 1rem;
+                    padding: 0.5rem;
+                }
+                ol,ul{
+                    padding: 2rem 0 0 2rem;
+                    li{
+                        font-size: 1.2rem;
+                        line-height: 2;
+                        span{
+                            color: #ff0000;
+                            cursor: pointer;
+                            &:hover{
+                                color: #0064BB;
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                } 
+                .recommended{
+                    font-size: 1.2rem;
+                    line-height: 2;
+                    span{
+                        color: #ff0000;
+                        cursor: pointer;
+                        &:hover{
+                            color: #0064BB;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+                .article_link{
+                    font-size: 1.2rem;
+                    line-height: 2;
+                    span{
+                        color: #ff0000;
+                        cursor: pointer;
+                        &:hover{
+                            color: #0064BB;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
             //installation and guidelines
             .left_side_installation_and_guidelines {
 

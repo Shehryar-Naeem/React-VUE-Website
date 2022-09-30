@@ -42,9 +42,9 @@ const NavComponent = () => {
             {getMonth} {getDate},{getYear} {ctime}
           </span>
           <ul className={toggle ? "menu_items" : "menu_items hidden"}>
-            <li>Our Aim</li>
+            <li><Link to="/ouraimpage">Our Aim</Link></li>
             <li>
-              <Link to="/adminpage">Privacy Policy</Link>
+              <Link to="/PrivacyPolicy">Privacy Policy</Link>
             </li>
             <li>About Us</li>
             <li>Contact Us</li>

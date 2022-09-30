@@ -72,9 +72,9 @@ const NavMenuComponent = () => {
                 <li><Link to="/howtocalculatecpga">How to calculate CGPA</Link></li>
                 <li><Link to="/howtoimprovegrade">How to improve Grades</Link></li>
                 <li>How to Do Course Selection</li>
-                <li>How to Change study Program</li>
+                <li><Link to="/howtochangecoursestudyprogram">How to Change study Program</Link></li>
                 <li><Link to="/howtoapplyformigrationandtransfer">How to Apply for Migration/Transfer</Link></li>
-                <li>How to Exam Money Online</li>
+                <li><Link to="/howtoearnmoenyonline">How to Exam Money Online</Link></li>
               </ul>
             </li>
             <li>

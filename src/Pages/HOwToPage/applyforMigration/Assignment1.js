@@ -1,6 +1,6 @@
 import React from "react";
 import SliderComp from "./ReactSlider";
-import cgpaImage from "../../../Images/upload.png";
+import cgpaImage from "../../../Images/migration.jpg";
 // import Slider from "react-slick";
 // import "slick-carousel/slick/slick.css";
 // import "slick-carousel/slick/slick-theme.css";
@@ -46,83 +46,249 @@ const AssignmentComponent = ({ picture }) => {
                 <input type="text" placeholder="Find..." />
               </div>
             </div>
-            <div className="left_side_how_to_solve_MCQs">
+            <div className="left_side_migration_transfer">
               <SubjectLine
-                title={`How to Solve msqs fast and correct`}
-                className={`black_subject_line_text`}
-              />
-              <p className="learn_fast">
-              Dear Students, Today we will learn here <b>how to solve MCQ's</b> Fast enough with <b>Maximum Possible Correct Answers</b>. In this Article we will discuss some very important points related to Examination. So Read with full attention. First get yourself out from the bubble of desperate times desperate measures. You should have a very clear picture of how you are going to handle your exam before the exam.
-              </p>
-              <div className="align_img">
-                <img src={cgpaImage} alt="assignment" />
-              </div>
-              <p className="pic_caption">vue all subject mid term past paper collection</p>
-              <p className="question">As You Know, In MCQ type questions it’s not the question that makes the examination tough it’s the 4 options that create chaos in our mind. We all have enough theory knowledge to crack any exam but as the trend has changed so, we need objective approach to solve objective type problems.</p>
-              <p className="recommended"><b>Recommended : </b> <span>MGT101 Final Term Papers spring 2016</span></p>
-            </div>
-            <div className="left_side_guideline_to_solve_mcqs">
-              <SubjectLine
-                title={`step by step guideline tot solve mcqs fast`}
-                className={`black_subject_line_text`}
-              />
-              <p className="important_discuss">In this tutorial we will discuss following important points:</p>
-              <ul>
-                <li>Think First Act later</li>
-                <li>Method of elimination</li>
-                <li>don't see the options yet</li>
-                <li>let me fill the blanks</li>
-                <li>combined approach</li>
-              </ul>
-            </div>
-            <div className="left_side_think_first_act_later">
-              <SubjectLine
-                title={`think first act later`}
-                className={`black_subject_line_text`}
-              />
-              <p className="discription">Inside the examination hall after reading a particular question. Few questions often come in our mind. Is this topic is from outside the syllabus? Do I have heard of this topic/term before? , Which subject is this question from? Let’s say we already have hundreds of question to solve in the&nbsp;examination and&nbsp;our mind creating questions after&nbsp;reading a question is not good. To handle this type of problem make a habit or train your brain in such a way that it asks the questions first after reading a particular MCQ rather than questions coming into your brain so, what are the questions you need to ask? First ask yourself just after reading the question which subject this question is from? Once you get the answer ask again which topic? Now after answering these two questions your brain will only look for answers from the topics of this subject only rather than throwing the stones in dark.</p>
-              <p className="recommended"><b>Recommended : </b><span>MGT101 solved material mega folder</span></p>
-            </div>
-            <div className="left_side_method_of_eliminate">
-            <SubjectLine
-                title={`method of eliminate`}
-                className={`black_subject_line_text`}
-              />
-              <p className="discription">In all almost all objective type questions two options can be eliminated after reading the question. The approach is simple , read the question once then read all the four options carefully then pick out two options that can’t be answer of the question. If we eliminate two options we have to search for answer among the remaining two only.</p>
-              <p className="recommended"><b>Recommended : </b><span>MGT101 Current and past final term paper 2016</span></p>
-            </div>
-            <div className="left_side_dont_see_option_yet">
-            <SubjectLine
-                title={`Don't see the option yet`}
-                className={`black_subject_line_text`}
-              />
-              <p className="discription">In this approach first read the question carefully. Then without reading the options try to think of an answer. If a topic surround the questions comes into your mind in the very first moment after reading the question now, see the options and look for the option that matches with your mind picked answer/topic. How this approach helps? These days objective questions and there options are designed in such a way that even if you have knowledge of that particular question after reading the all four options you will get confused. And this confusion will create question in your mind Do I really have studied this topic in-depth?</p>
-              <p className="recommended"><b>Recommended : </b><span>MGT101 Final term solved papers mega collection</span></p>
-            </div>
-            <div className="left_side_let_me_fill_the_blanks">
-            <SubjectLine
-                title={`let me fill the blanks`}
-                className={`black_subject_line_text`}
-              />
-              <p className="discription">In this approach try to consider a particular question as a fill in the blank type question rather than a MCQ. Read the question carefully then virtually fill answer to this question in your brain. Now read the options and try to pick one. You may think that this approach is similar to Don’t see the options yet but it’s slightly more concentrated towards the correct option.</p>
-              <p className="recommended"><b>Recommended : </b><span>MGT101 Final term solved papers mega collection</span></p>
-            </div>
-            <div className="left_side_combined_approach">
-            <SubjectLine
-                title={`combined approach`}
+                title={`Apply for Migration and Transfer in Virtual University`}
                 className={`black_subject_line_text`}
               />
               <p className="discription">
-              In this approach of solving MCQ’s you need to apply all the weapons you have. First use Don’t see the options yet then apply Method of elimination. By using combined approach you will end up with one option rather than two in case of only applying method of elimination.
-              <br/>
-              <br/>
-              Practice few mcq’s based upon the 5 approaches and judge with approach(s) works best for you and try to apply them in your final exam. Do let us know in the comments below how it goes
+              Dear Students, in this article we will discuss how to <b>apply for Migration </b>and<b> Transfer of courses/credit hours </b>in <b>Virtual University (VU)</b>. Previously we shared <span>Virtual University Fee Structure per Semester.</span>
               </p>
-              <p className="recommended"><b>Also Read : </b><span>MGT101 Final term solved papers mega collection</span></p>
-
-
-              <p className="discription2">You Can Download <b>Solved Mid/Final Term Papers</b>, Short Notes, Lecture Wise Questions Answers Files, <b>Solved MCQs</b>, Solved Quizzes ,<b> Solved Mid/Final Term Subjective Papers</b> , <b>Solved Mid Term Objective Papers</b> From This Discussion For <b>Preparation Mid/Final Term Papers.</b><br/><br/>For important helping material related to the subject ( <span>Solved MCQs, Assignment, Short Notes, Solved Past papers</span> E-books, Recommended Books <span>FAQs, Help & Tutorials, Short Questions Answer</span> & more). Your must view all the featured discussion in this subject group </p>
+              <div className="img_container">
+                <img src={cgpaImage} alt="assignment" />
+              </div>
+              <p className="pic_caption">How to Apply for Migration and Transfer in Virtual University (VU)</p>
+              <p style={{padding:"2rem 0 0 0",fontSize:"1.2rem",lineHeight:""}}>If You have completed part of your study in another HEC recognized institution and wish to transfer your completed courses/credit hours to Virtual University of Pakistan, You will be accepted for admission by the Virtual University of Pakistan in accordance with the following conditions:</p>
+              <ol>
+                <li>Each student seeking admission on credit transfer basis shall apply through Admission Form which is available at VU website (<span>www.vu.edu.pk/apply</span>) at the time of admission of every semester.</li>
+                <li> Transfer of credit hours to Virtual University of Pakistan (VU) will be considered on case to case basis by its Equivalence Committee that is authorized to review and approve the equivalence of courses completed at other recognized degree awarding institution.</li>
+                <li> Courses completed at other institution's prior to transfer shall be shown in the same transcript as exempted issued by university but not counted towards GPA/CGPA requirements. Moreover, transfer student will not be eligible for merit position.</li>
+              </ol>
             </div>
+            <div className="left_side_requirement_for_migration">
+              <SubjectLine
+                title={`Requirements to Apply for Migration in VU`}
+                className={`green_subject_line_text`}
+              />
+               <SubjectLine
+                title={``}
+                className={`green_subject_line_text`}
+              />
+              <p style={{padding:"2rem 0 0 0",fontSize:"1.2rem",lineHeight:"2"}}>There are some rules and requirements for migration in VU.</p>
+              <p style={{fontSize:"1.2rem",lineHeight:"2"}}>For complete details you can check the link below: </p>
+              <p className="link">http://www.vu.edu.pk/Admissions/TransferStudents.aspx</p>
+              <p style={{fontSize:"1.2rem",lineHeight:"2"}}>Here are some requirements that are required for migration purpose. </p>
+              <ul>
+                <li>The student is required to get NOC from his previous institute.</li>
+                <li>The student is required to give the detail mark sheet for migration. (Including grading scheme)</li>
+                <li>The student is required to give his content details of those subjects which he already passes out.</li>
+              </ul>
+              <p style={{fontSize:"1.2rem",lineHeight:"2"}}>When the student has all the above documents then he can apply for migration. A student can only apply for migration only when the admissions are open in Virtual University.  When admissions open then a student is required to apply online instead of applying by taking the form in hard copy form any campus. </p>
+              <p style={{padding:"2rem 0 0 0",fontSize:"1.2rem",lineHeight:"2"}}>The student can also verify that he is eligible for course exemption / Migration or not by calling on a helpline. </p>
+              <p style={{padding:"2rem 0 0 0",fontSize:"1.2rem",lineHeight:"2"}}>Contact # 042-111-880-880 </p>
+              <p style={{padding:"2rem 0 0 0",fontSize:"1.2rem",lineHeight:"2"}}>Or a student can email to Virtual University to the related department of the admission.</p>
+              <br/>
+              <p className="read_note"><b>Also Read: </b><span>VU Admission Schedule and Procedure Fall 2019 </span></p>
+            </div>
+            <div className="left_side_transfer_credit_Hours">
+              <SubjectLine
+                title={`Transfer of Credit Hours of Course(s) `}
+                className={`black_subject_line_text`}
+              />
+              <ol>
+                <li>Student who wishes to transfer their credit hours of courses to Virtual University of Pakistan shall be granted exemption to a maximum of 50 % of courses attended in another institute. </li>
+                <li>Exemption shall be granted only by the Equivalence Committee of the university which are relevant to the degree at the University according to the following conditions: </li>
+              </ol>
+              <ul>
+                <li> Course and credit hours shall conform to the program outlines of the Virtual University of Pakistan.</li>
+                <li>Courses with less than B grade will not be considered.</li>
+                <li>Course Exemptions are granted according to VU program scheme of study and candidate’s degree base academic background. Diploma, short course(s) or professional course(s)/ professional experience are not counted in this regard.</li>
+              </ul>
+              <SubjectLine
+                title={`Course Exemptions for Bachelor’s Degree`}
+                className={`black_subject_line_text`}
+              />
+              <SubjectLine
+                style={{marginTop:"2rem"}}
+                title={``}
+                className={`black_subject_line_text`}
+              />
+              <p style={{padding:"2rem 0",fontSize:"1.2rem",lineHeight:"2"}}>Course Exemptions for Bachelor’s Degrees Holders having atleast 45% Marks. </p>
+              <p style={{padding:"2rem 0",fontSize:"1.2rem",lineHeight:"2"}}>Candidates having a Bachelor’s degree with at least 45% marks from a recognized University and admitted to a BS program will be exempted on their request from the following subjects:</p>
+              <ol>
+                <li>English Comprehension (3 credits) </li>
+                <li>Islamic Studies (1 credit) </li>
+                <li>Pakistan Studies (2 credit)</li>
+              </ol>
+              <p style={{padding:"2rem 0",fontSize:"1.2rem",lineHeight:"2"}}>The following courses will be exempted for students, who have studied any of the following subjects at the graduation level.</p>
+            </div>
+            <div className="left_side_Graduate_table">
+            <SubjectLine
+                title={`B.A./B.Sc. Graduates`}
+                className={`green_subject_line_text`}
+              />
+              <table>
+                <thead>
+                  <tr>
+                    <td><b>No.</b></td>
+                    <td><b>Subjects Studied</b></td>
+                    <td><b>Subjects Exempted</b></td>
+                    <td><b>Credits</b></td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1.</td>
+                    <td>General Mathematics</td>
+                    <td>Calculus and Analytical geometry</td>
+                    <td>3</td>
+                  </tr>
+                  <tr>
+                    <td>2.</td>
+                    <td>Mathematics A Course &</td>
+                    <td>Calculus and Analytical geometry</td>
+                    <td>3</td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td>Mathematics B Course</td>
+                    <td>Calculus II</td>
+                    <td>3</td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td></td>
+                    <td>Differential Equation</td>
+                    <td>3</td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td></td>
+                    <td>Linear Algebra</td>
+                    <td>3</td>
+                  </tr>
+                  <tr>
+                    <td>3.</td>
+                    <td>Statistics</td>
+                    <td>Statistics and probability</td>
+                    <td>3</td>
+                  </tr>
+                  <tr>
+                    <td>4.</td>
+                    <td>General physics</td>
+                    <td>Circuit Theory and physics</td>
+                    <td>3</td>
+                  </tr>
+                  <tr>
+                    <td>5.</td>
+                    <td>Psychology / Applied Psychology</td>
+                    <td>Psychology</td>
+                    <td>3</td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <SubjectLine
+                title={`B. Com. Graduates `}
+                className={`green_subject_line_text`}
+              />
+
+              <table>
+                <thead>
+                  <tr>
+                    <td><b>No.</b></td>
+                    <td><b>Subjects Studied</b></td>
+                    <td><b>Subjects Exempted</b></td>
+                    <td><b>Credits</b></td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1.</td>
+                    <td>All B.Com Graduates</td>
+                    <td>Financial Accounting</td>
+                    <td>3</td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td></td>
+                    <td>Finanical Mangement</td>
+                    <td>3</td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td></td>
+                    <td>Economics</td>
+                    <td>3</td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td></td>
+                    <td>Business and Technical English Writing</td>
+                    <td>3</td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <SubjectLine
+                title={`Engineering Graduates`}
+                className={`green_subject_line_text`}
+              />
+              <p style={{padding:"2rem 0",fontSize:"1.2rem",lineHeight:"2"}}>All B.E. degree holders from recognized universities shall be exempt from the following courses: </p>
+
+              <ol>
+                <li>Calculus and Analytical Geometry</li>
+                <li>Multi Variable Calculus</li>
+                <li>Differential Equations</li>
+                <li>Linear Algebra</li>
+                <li>Statistics and Probability</li>
+                <li>Circuit Theory</li>
+                <li>Introduction to Computing </li>
+              </ol>
+
+              <p style={{padding:"2rem 0 0 0",fontSize:"1.2rem",lineHeight:"2"}}>In addition, the following courses will be exempted for students who have qualified the specializations listed below:</p>
+              
+              <table>
+                <thead>
+                  <tr>
+                    <td><b>No.</b></td>
+                    <td><b>Subjects Studied</b></td>
+                    <td><b>Subjects Exempted</b></td>
+                    <td><b>Credits</b></td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1.</td>
+                    <td>Electronics Engineering (all)/</td>
+                    <td>Electronics</td>
+                    <td>3</td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td>Computer Engineering</td>
+                    <td>Digital logic design</td>
+                    <td>3</td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td></td>
+                    <td>Computer networks</td>
+                    <td>3</td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td></td>
+                    <td>data communication</td>
+                    <td>3</td>
+                  </tr>
+                </tbody>
+              </table>
+              <p  style={{padding:"2rem 0",fontSize:"1.2rem",lineHeight:"2"}}><b>Note:</b> If University is not allowing an exemption for that particular study program that you want then don’t apply for course exemption because your fee for course exemption will be waste.</p>
+              <p className="read_note"><b>Also Read : </b><span>How to use Virtual University Exam Software</span></p>
+              <p style={{padding:"2rem 0",fontSize:"1.2rem",lineHeight:"2"}}>we hope this article about How to Apply for Migration and Transfer in Virtual University (VU)was helpful for you, share it with your friends. Thank You.</p>
+            </div>
+        
           </div>
           <div className="left_side_social_side">
             <span>share to:</span>

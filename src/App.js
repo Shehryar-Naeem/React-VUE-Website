@@ -4,8 +4,8 @@ import { Routes, Route, Outlet } from "react-router-dom";
 import Home from "./Pages/HomePage/Home";
 import Footer from "./FooterComp/Footer";
 import AssignmentOne from "./Pages/Assignments/Assignment1/AssignmentOne";
-import AdminPage from "./Pages/Admin page/AdminPage";
-import Inputpage from "./Pages/inputPage/InputPage";
+// import AdminPage from "./Pages/Admin page/AdminPage";
+// import Inputpage from "./Pages/inputPage/InputPage";
 import TrendingSection from "./Pages/Assignments/AssignmentCompont/TrendingSection";
 import Archive from "./Pages/Assignments/AssignmentCompont/Archive";
 import Comment from "./Pages/Assignments/AssignmentCompont/Comment";
@@ -40,6 +40,10 @@ import MeritList from "./Pages/OtherPages/MeritListPage";
 import NTS from "./Pages/OtherPages/NTS";
 import Pricebondpage from "./Pages/OtherPages/PiceBondpage";
 import HowtoApplyforMigration from "./Pages/HOwToPage/ApplyforMigration";
+import HowtoEarnMoenyOnline from "./Pages/HOwToPage/EarnMoney";
+import ChangeCourseStudyProgram from "./Pages/HOwToPage/ChangeCourseStudyProgram";
+import Ouraimpage from "./Pages/OurAimpage/OurAim";
+import PrivacyPage from "./Pages/PrivayPage/PrivacyPage";
 const getYear = new Date().getFullYear();
 
 const App = () => {
@@ -48,13 +52,23 @@ const App = () => {
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/ouraim" />
-        <Route path="/privacypolicy" />
+        <Route path="/ouraimpage" element={<Ouraimpage/>} >
+        <Route path="" element={<TrendingSection getYear={getYear} />} />
+          <Route path="comments" element={<Comment />} />
+          <Route path="archive" element={<Archive />} />
+
+        </Route>
+        <Route path="/PrivacyPolicy" element={<PrivacyPage/>} >
+
+        <Route path="" element={<TrendingSection getYear={getYear} />} />
+          <Route path="comments" element={<Comment />} />
+          <Route path="archive" element={<Archive />} />
+        </Route>
         <Route path="/dmca" />
         <Route path="/sitemap" />
         <Route path="/aboutus" />
         <Route path="contactus" />
-
+        
         {/* *********** Route for Assignment Pages start *********  */}
         <Route path="/assignment/assignment1" element={<AssignmentOne />}>
           <Route path="" element={<TrendingSection getYear={getYear} />} />
@@ -182,12 +196,26 @@ const App = () => {
           <Route path="comments" element={<Comment />} />
           <Route path="archive" element={<Archive />} />
         </Route>
-        <Route path="/howtoapplyformigrationandtransfer" element={<HowtoApplyforMigration/>}>
-        <Route path="" element={<TrendingSection getYear={getYear} />} />
+
+        <Route path="/howtochangecoursestudyprogram" element={<ChangeCourseStudyProgram/>}>
+          <Route path="" element={<TrendingSection getYear={getYear} />} />
+          <Route path="comments" element={<Comment />} />
+          <Route path="archive" element={<Archive />} />
+        </Route>
+        <Route
+          path="/howtoapplyformigrationandtransfer"
+          element={<HowtoApplyforMigration />}
+        >
+          <Route path="" element={<TrendingSection getYear={getYear} />} />
           <Route path="comments" element={<Comment />} />
           <Route path="archive" element={<Archive />} />
         </Route>
 
+        <Route path="/howtoearnmoenyonline" element={<HowtoEarnMoenyOnline />}>
+          <Route path="" element={<TrendingSection getYear={getYear} />} />
+          <Route path="comments" element={<Comment />} />
+          <Route path="archive" element={<Archive />} />
+        </Route>
         {/* how to install software */}
         <Route path="/howtoinstalldevc++" element={<HowtoinstallDEV />}>
           <Route path="" element={<TrendingSection getYear={getYear} />} />
@@ -224,57 +252,59 @@ const App = () => {
           <Route path="comments" element={<Comment />} />
           <Route path="archive" element={<Archive />} />
         </Route>
-        
-        <Route path="/howtoinstallandusevisualstudiocode" element={<VisualStudioProcedurePage/>}>
-        <Route path="" element={<TrendingSection getYear={getYear} />} />
-          <Route path="comments" element={<Comment />} />
-          <Route path="archive" element={<Archive />} />
-        </Route>
-        
 
-        {/*Other page routes*/ }
-
-        <Route path="/c++programming" element={<ProgrammingLanguageCPlusPlus/>}>
-        <Route path="" element={<TrendingSection getYear={getYear} />} />
+        <Route
+          path="/howtoinstallandusevisualstudiocode"
+          element={<VisualStudioProcedurePage />}
+        >
+          <Route path="" element={<TrendingSection getYear={getYear} />} />
           <Route path="comments" element={<Comment />} />
           <Route path="archive" element={<Archive />} />
         </Route>
 
-        <Route path="/sholarshipsPage" element={<Scholarships/>}>
-        <Route path="" element={<TrendingSection getYear={getYear} />} />
+        {/*Other page routes*/}
+
+        <Route
+          path="/c++programming"
+          element={<ProgrammingLanguageCPlusPlus />}
+        >
+          <Route path="" element={<TrendingSection getYear={getYear} />} />
           <Route path="comments" element={<Comment />} />
           <Route path="archive" element={<Archive />} />
         </Route>
 
-
-        <Route path="/laptopScheme" element={<LaptopScheme/>}>
-        <Route path="" element={<TrendingSection getYear={getYear} />} />
-          <Route path="comments" element={<Comment />} />
-          <Route path="archive" element={<Archive />} />
-        </Route>
-        <Route path="/meritlist" element={<MeritList/>}>
-        <Route path="" element={<TrendingSection getYear={getYear} />} />
+        <Route path="/sholarshipsPage" element={<Scholarships />}>
+          <Route path="" element={<TrendingSection getYear={getYear} />} />
           <Route path="comments" element={<Comment />} />
           <Route path="archive" element={<Archive />} />
         </Route>
 
-        <Route path="/ntspage" element={<NTS/>}>
-        <Route path="" element={<TrendingSection getYear={getYear} />} />
+        <Route path="/laptopScheme" element={<LaptopScheme />}>
+          <Route path="" element={<TrendingSection getYear={getYear} />} />
+          <Route path="comments" element={<Comment />} />
+          <Route path="archive" element={<Archive />} />
+        </Route>
+        <Route path="/meritlist" element={<MeritList />}>
+          <Route path="" element={<TrendingSection getYear={getYear} />} />
           <Route path="comments" element={<Comment />} />
           <Route path="archive" element={<Archive />} />
         </Route>
 
-
-        <Route path="/pricebondpage" element={<Pricebondpage/>}>
-        <Route path="" element={<TrendingSection getYear={getYear} />} />
+        <Route path="/ntspage" element={<NTS />}>
+          <Route path="" element={<TrendingSection getYear={getYear} />} />
           <Route path="comments" element={<Comment />} />
           <Route path="archive" element={<Archive />} />
         </Route>
 
+        <Route path="/pricebondpage" element={<Pricebondpage />}>
+          <Route path="" element={<TrendingSection getYear={getYear} />} />
+          <Route path="comments" element={<Comment />} />
+          <Route path="archive" element={<Archive />} />
+        </Route>
 
-        <Route path="/adminpage" element={<AdminPage />}>
+        {/* <Route path="/adminpage" element={<AdminPage />}>
           <Route path="inputpage" element={<Inputpage />} />
-        </Route>
+        </Route> */}
       </Routes>
       <Outlet />
       <Footer />
