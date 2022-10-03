@@ -37,8 +37,8 @@ const NavMenuComponent = () => {
                 <i className="fa fa-caret-down" aria-hidden="true"></i>
               </span>
               <ul>
-                <li>GDB1</li>
-                <li>GDB2</li>
+                <li><Link to="/gdb1_page">GDB1</Link></li>
+                <li><Link to="/gdb2_page">GDB2</Link></li>
               </ul>
             </li>
             <li>

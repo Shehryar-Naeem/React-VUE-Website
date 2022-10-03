@@ -46,8 +46,8 @@ const NavComponent = () => {
             <li>
               <Link to="/PrivacyPolicy">Privacy Policy</Link>
             </li>
-            <li>About Us</li>
-            <li>Contact Us</li>
+            <li><Link to="/aboutus_blog_page">About Us</Link></li>
+            <li><Link to="/contactus_blog_page">Contact Us</Link></li>
           </ul>
         </div>
         <div className="icons">

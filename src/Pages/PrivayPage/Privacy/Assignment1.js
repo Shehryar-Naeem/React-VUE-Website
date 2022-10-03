@@ -89,10 +89,41 @@ const AssignmentComponent = ({ picture }) => {
               <p style={{paddingTop:"2rem",fontSize:"1.2rem",lineHeight:"2"}}><b>DoubleClick DART Cookie</b></p>
               <p className="discritpion1">
               .:: Google, as a third party vendor, uses cookies to serve ads on 
-              <span>www.virtualstudysolutions.blogspot.com</span>.:: Google's use of the DART cookie enables it to serve ads to users based on their visit to <span>www.virtualstudysolutions.blogspot.com</span> and other sites on the Internet.  
+              <span>www.virtualstudysolutions.blogspot.com</span>.:: Google's use of the DART cookie enables it to serve ads to users based on their visit to <span>www.virtualstudysolutions.blogspot.com</span> and other sites on the Internet..:: Users may opt out of the use of the DART cookie by visiting the Google ad and content network privacy policy at the following URL - http://www.google.com/privacy_ads.html 
+              </p>
+              <br/>
+              <br/>
+              <p className="discritpion1">
+              Some of our advertising partners may use cookies and web beacons on our site. Our advertising partners include ....
+              <br/>Google Adsense
               </p>
 
+              <br/>
+              <br/>
+              <p className="discritpion1">
+              These third-party ad servers or ad networks use technology to the advertisements and links that appear on <span>www.virtualstudysolutions.blogspot.com</span> send directly to your browsers. They automatically receive your IP address when this occurs. Other technologies ( such as cookies, JavaScript, or Web Beacons ) may also be used by the third-party ad networks to measure the effectiveness of their advertisements and / or to personalize the advertising content that you see. 
+              </p>
 
+              <br/>
+              <br/>
+
+              <p className="discritpion1">
+              <span>www.virtualstudysolutions.blogspot.com</span> has no access to or control over these cookies that are used by third-party advertisers. 
+              </p>
+
+              <br/>
+              <br/>
+
+              <p className="discritpion1">
+              You should consult the respective privacy policies of these third-party ad servers for more detailed information on their practices as well as for instructions about how to opt-out of certain practices. <span>www.virtualstudysolutions.blogspot.com</span>'s privacy policy does not apply to, and we cannot control the activities of, such other advertisers or web sites. 
+              </p>
+
+              <br/>
+              <br/>
+
+              <p className="discritpion1">
+              If you wish to disable cookies, you may do so through your individual browser options. More detailed information about cookie management with specific web browsers can be found at the browsers' respective websites. 
+              </p>
             </div>        
           </div>
           <div className="left_side_social_side">

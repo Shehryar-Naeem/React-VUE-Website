@@ -8,7 +8,7 @@ const SliderComp=()=>{
         {/* <div style={{display:"flex"}}> */}
             <Slider
             slidesToShow={3}
-            slidesToScroll={3}>
+            slidesToScroll={3}> 
                 {
                     AssignmentData.map((cur,index)=>{
                         return (

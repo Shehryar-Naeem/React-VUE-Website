@@ -44,6 +44,10 @@ import HowtoEarnMoenyOnline from "./Pages/HOwToPage/EarnMoney";
 import ChangeCourseStudyProgram from "./Pages/HOwToPage/ChangeCourseStudyProgram";
 import Ouraimpage from "./Pages/OurAimpage/OurAim";
 import PrivacyPage from "./Pages/PrivayPage/PrivacyPage";
+import AboutUsBlogPage from "./Pages/AboutBlog/AboutUsBlogPage";
+import ContactUsBlogPage from "./Pages/ContactUsPage/ContactUs";
+import GDB1 from "./Pages/GDBpage/GDBPage1";
+import GDB2 from "./Pages/GDBpage/GDB2";
 const getYear = new Date().getFullYear();
 
 const App = () => {
@@ -53,14 +57,28 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/ouraimpage" element={<Ouraimpage/>} >
-        <Route path="" element={<TrendingSection getYear={getYear} />} />
+          <Route path="" element={<TrendingSection getYear={getYear} />} />
           <Route path="comments" element={<Comment />} />
           <Route path="archive" element={<Archive />} />
 
         </Route>
-        <Route path="/PrivacyPolicy" element={<PrivacyPage/>} >
 
-        <Route path="" element={<TrendingSection getYear={getYear} />} />
+        {/*Privacy Route*/}
+        <Route path="/PrivacyPolicy" element={<PrivacyPage/>} >
+          <Route path="" element={<TrendingSection getYear={getYear} />} />
+          <Route path="comments" element={<Comment />} />
+          <Route path="archive" element={<Archive />} />
+        </Route>
+        {/*about_us_blog_page*/}
+        <Route path="/aboutus_blog_page" element={<AboutUsBlogPage/>}>
+          <Route path="" element={<TrendingSection getYear={getYear} />} />
+          <Route path="comments" element={<Comment />} />
+          <Route path="archive" element={<Archive />} />
+        </Route>
+
+        {/*contact_us_blog_page*/}
+        <Route path="/contactus_blog_page" element={<ContactUsBlogPage/>}>
+          <Route path="" element={<TrendingSection getYear={getYear} />} />
           <Route path="comments" element={<Comment />} />
           <Route path="archive" element={<Archive />} />
         </Route>
@@ -85,7 +103,24 @@ const App = () => {
           <Route path="comments" element={<Comment />} />
           <Route path="archive" element={<Archive />} />
         </Route>
+
+        {/*GDB page*/}
+
+        <Route path="/gdb1_page" element={<GDB1/>}>
+        <Route path="" element={<TrendingSection getYear={getYear} />} />
+          <Route path="comments" element={<Comment />} />
+          <Route path="archive" element={<Archive />} />
+        </Route>
+
+
+        <Route path="/gdb2_page" element={<GDB2/>}>
+        <Route path="" element={<TrendingSection getYear={getYear} />} />
+          <Route path="comments" element={<Comment />} />
+          <Route path="archive" element={<Archive />} />
+        </Route>
+
         {/* *********** Route for Assignment Pages end *********  */}
+
 
         <Route path="/currentfinaltermpaper" element={<CurrentFinalTermPage />}>
           <Route path="" element={<TrendingSection getYear={getYear} />} />

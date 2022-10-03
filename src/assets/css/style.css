@@ -3157,6 +3157,54 @@ footer {
   color: #0064BB;
   text-decoration: underline;
 }
+.pastpaper_container .left_side_Container .left_side .left_side_about_page .black_subject_line_text {
+  margin-top: 2rem;
+  display: block;
+  text-align: center;
+  padding: 1rem 0;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 8px 9px 10px #ff0000;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_about_page .img_container {
+  width: 20rem;
+  height: 15rem;
+  margin: 0 auto;
+  padding: 0.5rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.2);
+}
+.pastpaper_container .left_side_Container .left_side .left_side_about_page .img_container img {
+  width: 100%;
+  height: 100%;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_about_page .input_label i {
+  font-size: 1.2rem;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_about_page .input_label span {
+  padding-left: 0.5rem;
+  font-size: 1.2rem;
+}
+.pastpaper_container .left_side_Container .left_side .left_side_about_page input {
+  margin-top: 0.5rem;
+  width: 15rem;
+  height: 2rem;
+  padding: 1rem 0.5rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.2);
+}
+.pastpaper_container .left_side_Container .left_side .left_side_about_page textarea {
+  margin-top: 0.5rem;
+  width: 15rem;
+  height: 5rem;
+  padding: 1rem 0.5rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.2);
+}
+.pastpaper_container .left_side_Container .left_side .left_side_about_page button {
+  padding: 0.5rem;
+}
 .pastpaper_container .left_side_Container .left_side .left_side_migration_transfer .black_subject_line_text {
   margin-top: 2rem;
   display: block;
